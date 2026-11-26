@@ -29,10 +29,12 @@ test('Language switch persists, translates metadata and validation, and leaves s
  const stored=new Map<string,string>();
  Object.defineProperty(globalThis,'localStorage',{value:{getItem:(k:string)=>stored.get(k)??null,setItem:(k:string,v:string)=>stored.set(k,v)},configurable:true});
  setLanguage('en');assert.equal(readLanguage(),'en');
- assert.equal(t('Weil du zu arm bist für eine richtige Karre.'),'Because you are too poor to afford a real ride.');
+ assert.equal(t('Billiger kommst du nicht weg.'),'The cheapest way out.');
+ assert.equal(t('Leonida Transit – GTA 6 Routenplaner & Netzplan'),'Leonida Transit – GTA 6 Transit Map & Route Planner');
  assert.equal(t('Zuletzt bestätigt: {0}','Fleeca Field Metro Station'),'Last confirmed: Fleeca Field Metro Station');
  assert.equal(t('Haltestellen: 2–500 Einträge erwartet.'),'stops: expected 2–500 entries.');
  assert.equal(t('Fleeca Field Metro Station'),'Fleeca Field Metro Station');
  setLanguage('de');assert.equal(readLanguage(),'de');assert.equal(t('Clockwise'),'Uhrzeigersinn');
+ assert.equal(t('The cheapest way out.'),'Billiger kommst du nicht weg.');
  assert.match(t(network.notes![0]),/^Vorläufiges Fan-Netz/);
 });

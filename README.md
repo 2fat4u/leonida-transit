@@ -1,6 +1,6 @@
 # Leonida Transit
 
-**The cheapest way to get away.**
+**The cheapest way out.**
 
 An unofficial GTA VI transit planner for phones and browsers, built with React and TypeScript. English and German UI, original English stop names, and offline support.
 

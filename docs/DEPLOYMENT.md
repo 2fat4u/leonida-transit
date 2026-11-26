@@ -28,6 +28,8 @@ The repository's `.node-version` file selects **Node.js 22**. If you need to set
 
 Choose **Save and Deploy**. Cloudflare installs the dependencies, runs the tests, builds the app and publishes it. Wait for a successful deployment, then **copy the HTTPS website address shown on the result screen**. That is your app link.
 
+If you publish a separate copy at a different address, replace `https://leonida-transit.pages.dev/` in `index.html`, `public/robots.txt` and `public/sitemap.xml` with your own production address. These files identify the main address for search engines and link previews.
+
 ## 3. Open and install the app
 
 1. Send the website address to your phone and open it in **Chrome on Android**.
