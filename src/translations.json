@@ -516,5 +516,8 @@
   "KEINE WAHL.": "NO CHOICE.",
   "Nur Halte und Verlauf der gewählten Fahrtrichtung. Pfeile zeigen die Fahrtfolge.": "Only stops and the path for the selected direction. Arrows show travel order.",
   "Erneute Richtungsprüfung: 25 Folgen stimmen mit der Quelle überein. 12 Richtungen sind ausdrücklich bezeichnet; bei 13 bleibt es bei der gelisteten Folge. P → S der 16/18 wurde von einem Nutzer im Spiel beobachtet.": "Direction review: all 25 sequences match the source. 12 directions have explicit labels; 13 retain their listed order. A user observed P → S on 16/18 in the game.",
-  "Fahrtrichtungsprüfung herunterladen": "Download direction review"
+  "Fahrtrichtungsprüfung herunterladen": "Download direction review",
+  "Zu Fuß zu {0}": "Walk to {0}",
+  "Von {0}": "From {0}",
+  "Hier einsteigen": "Board here"
 }
