@@ -519,5 +519,14 @@
   "Fahrtrichtungsprüfung herunterladen": "Download direction review",
   "Zu Fuß zu {0}": "Walk to {0}",
   "Von {0}": "From {0}",
-  "Hier einsteigen": "Board here"
+  "Hier einsteigen": "Board here",
+  "Alternative mit Fußweg": "Alternative with walking",
+  "{0} statt {1} Streckenabschnitte": "{0} instead of {1} stop segments",
+  "Alternative mit Fußweg ansehen": "View walking alternative",
+  "Aussteigen: {0}": "Get off at {0}",
+  "Fußwege und Querungen sind ungeprüft. Weniger Abschnitte bedeuten keine bestätigte kürzere Fahrzeit.": "Walking paths and crossings are unverified. Fewer segments do not establish a shorter travel time.",
+  "Diese Alternative verwenden": "Use this alternative",
+  "Alternative mit Fußweg übernommen.": "Walking alternative selected.",
+  "{0} statt {1} Umstiege": "{0} instead of {1} transfers",
+  "Luftlinie": "Straight-line distance"
 }

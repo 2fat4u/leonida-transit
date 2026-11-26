@@ -84,3 +84,7 @@ Private hosting may protect the manifest, icons and service worker behind sign-i
 The researched network has 19 passenger lines, 25 directions and 340 stop entries, including 41 unnamed shelters. GTAMap supplies the main route and geometry references; GTABase provides a limited name comparison. Source matching does not establish independent upstream data or in-game accuracy. N02 is treated as a regular bus; freight routes are excluded.
 
 For provenance and licensing distinctions, see [DATA_SOURCES.md](../DATA_SOURCES.md). Additional audit notes are in [LOGIKPRUEFUNG.md](../LOGIKPRUEFUNG.md) and [PRUEFBERICHT.md](../PRUEFBERICHT.md), currently in German.
+
+## Optional walking alternative
+
+When walking is off, a separate suggestion can appear below an existing route if walking saves at least three ride segments and 25% compared with both that route and the shortest route available without walking. It respects the selected transport modes and walking radius, with a maximum of 500 metres total straight-line walking for automatic suggestions. Paths and crossings remain unverified. The preview compares segment counts, walking distance and transfers; opening it keeps the original result. Only choosing Use this alternative replaces the result, enables walking and selects the fewest-stops preference. The existing routing graph is unchanged.
