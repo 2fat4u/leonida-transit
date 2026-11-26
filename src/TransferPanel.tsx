@@ -5,10 +5,10 @@ import {formatDistance,useUnits} from './units';
 import type {Network} from './model';
 import {nearbyStops,servicesAtStop,sharedStops} from './transfers';
 
-export function StopConnections({network,stopId,exclude,onLine}:{network:Network;stopId:string;exclude?:string;onLine?:(id:string)=>void}){
+export function StopConnections({network,stopId,exclude,onLine}:{network:Network;stopId:string;exclude?:string;onLine?:(id:string,stopId:string)=>void}){
  const services=servicesAtStop(network,stopId).filter(s=>s.line.id!==exclude&&(!exclude||s.boarding.length));
  if(!services.length)return null;
- return <div className="stop-connections"><small>{t(exclude?'Umsteigen zu':'Linien an diesem Halt')}</small><div>{services.map(s=><button type="button" key={s.line.id} onClick={()=>onLine?.(s.line.id)} disabled={!onLine} title={s.boarding.length?s.boarding.map(p=>t(p.headsign)).join(' · '):t('Nur Ankunft in der gelisteten Richtung')} style={{borderColor:s.line.color}}><i style={{background:s.line.color}}/>{s.line.id}{!s.boarding.length&&<span> · {t('Ankunft')}</span>}</button>)}</div></div>;
+ return <div className="stop-connections"><small>{t(exclude?'Umsteigen zu':'Linien an diesem Halt')}</small><div>{services.map(s=><button type="button" key={s.line.id} onClick={()=>onLine?.(s.line.id,stopId)} disabled={!onLine} title={s.boarding.length?s.boarding.map(p=>t(p.headsign)).join(' · '):t('Nur Ankunft in der gelisteten Richtung')} style={{borderColor:s.line.color}}><i style={{background:s.line.color}}/>{s.line.id}{!s.boarding.length&&<span> · {t('Ankunft')}</span>}</button>)}</div></div>;
 }
 
 export function NearbyStops({network,stopId,radius}:{network:Network;stopId:string;radius:number}){

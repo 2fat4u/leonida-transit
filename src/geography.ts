@@ -42,10 +42,11 @@ export const referencePlaces=[
 export const geographyOutlines=outlines;
 export const geographicPathSource=pathReferences.source;
 export type GeographicPath={key:string;lineId:string;patternId:string;points:Point[];sourced:boolean};
-export function geographicRoutePaths(network:Network):GeographicPath[]{
+export function geographicRoutePaths(network:Network,selection?:{lineId:string;patternId:string}):GeographicPath[]{
  const positions=new Map(network.stops.map(s=>[s.id,s.position]));
  const original=pathReferences.positions as Record<string,number[]>;
  return network.lines.flatMap(line=>line.patterns.flatMap<GeographicPath>(pattern=>{
+  if(selection&&(selection.lineId!==line.id||selection.patternId!==pattern.id))return [];
   const source=pathReferences.routes.find(r=>r.lineId===line.id&&r.patternId===pattern.id);
   const matches=source&&source.calls.length===pattern.stops.length&&source.calls.every((id,i)=>{
    const p=positions.get(id),expected=original[id];return id===pattern.stops[i]&&p&&expected&&p.x===expected[0]&&p.y===expected[1];

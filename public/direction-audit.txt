@@ -1,0 +1,44 @@
+DIRECTION REVIEW — 26 November 2026
+
+19 passenger lines; 25 directed call sequences checked against freshly retrieved GTAMap transit data.
+12 directions explicitly carry cw/acw labels (MT, AR, 1618, SL, CL and HL). The other 13 have a listed order but no explicit cw/acw label. No reverse services or alphabetic ordering were inferred.
+
+Source: https://gtamap.io/data/transit/gta6.json?v=ae10a7b6
+SHA-256: ae10a7b6ba5881c8ce0687750c74dc8c47787dbb96e0da408d29a2de6884b408
+
+All 25 imported sequences match the source, including consecutive-duplicate normalization and explicit loop closure. Ordered calls can be mapped to one traversal of their source path; retraced/shared corridors make geometry alone ambiguous. This checks source consistency, not independent accuracy in the game.
+
+16/18 — user observation:
+Catalan Blvd, Bayside (Stop P) → Catalan Blvd, Bayside (Stop S), northbound, was reported from the game. It matches the cw call sequence. Q → O is listed in the opposite direction but has not been separately observed here. P and S are absent from 1618 ccw; Q and O are absent from 1618 cw. 15 distinct stops belong only to cw, 15 only to ccw, and 6 are shared. Stop letters are identifiers, not a sequence to sort.
+
+DISPLAY ISSUES FIXED:
+Selecting a line from a one-direction-only stop now chooses a direction serving that stop. Geographic line detail now offers direction selection, filters paths and stops to it, draws arrows along the ordered path and shows the selected stop's previous/next call. The underlying route graph did not require reversal for the reported P → S segment.
+
+Line | Pattern | Explicit source direction | Calls | Source matches | Geometry compatible | Stops unique to this pattern
+MM | listed | not specified | 16 | yes | yes | single listed pattern
+AM | listed | not specified | 4 | yes | yes | single listed pattern
+MT | cw | cw | 3 | yes | yes | 1
+MT | ccw | acw | 3 | yes | yes | 1
+AR | cw | cw | 7 | yes | yes | 1
+AR | ccw | acw | 8 | yes | yes | 2
+69 | listed | not specified | 5 | yes | yes | single listed pattern
+420 | listed | not specified | 32 | yes | yes | single listed pattern
+1024 | listed | not specified | 32 | yes | yes | single listed pattern
+1029 | listed | not specified | 43 | yes | yes | single listed pattern
+1032 | listed | not specified | 26 | yes | yes | single listed pattern
+1050 | listed | not specified | 31 | yes | yes | single listed pattern
+1071 | listed | not specified | 34 | yes | yes | single listed pattern
+1618 | cw | cw | 21 | yes | yes | 15
+1618 | ccw | acw | 21 | yes | yes | 15
+A55 | listed | not specified | 22 | yes | yes | single listed pattern
+LC | listed | not specified | 15 | yes | yes | single listed pattern
+N02 | listed | not specified | 48 | yes | yes | single listed pattern
+KL | listed | not specified | 9 | yes | yes | single listed pattern
+SL | cw | cw | 14 | yes | yes | 10
+SL | ccw | acw | 12 | yes | yes | 8
+CL | cw | cw | 6 | yes | yes | 6
+CL | ccw | acw | 7 | yes | yes | 7
+HL | cw | cw | 7 | yes | yes | 7
+HL | ccw | acw | 7 | yes | yes | 7
+
+Limits: GTAMap line page and transit file are from the same publisher. GTABase name comparisons do not validate route direction. Only the reported P → S transition has the user observation recorded here. Whole-pattern evidence remains single-source.

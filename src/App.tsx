@@ -15,6 +15,7 @@ const LazyNetworkMap=lazy(()=>import('./NetworkMap').then(module=>({default:modu
 function NetworkMap(props:ComponentProps<typeof LazyNetworkMap>){return <Suspense fallback={<section className="map-loading" role="status">{t('Netzplan wird geladen…')}</section>}><LazyNetworkMap {...props}/></Suspense>;}
 import {uniqueCalls,type Point} from './schematic';
 import {WALK_LINE_ID} from './transfers';
+import {boardingPatternIndex} from './directions';
 import {StopConnections,TransferDirectory} from './TransferPanel';
 type InstallPrompt=Event&{prompt:()=>Promise<void>;userChoice:Promise<{outcome:'accepted'|'dismissed'}>};
 type Tab='route'|'map'|'lines'|'ride'|'data';
@@ -40,7 +41,7 @@ export default function App(){
  const [approxPosition,setApproxPosition]=useState<Point|null>(null);
  const [pickedStop,setPickedStop]=useState<{id:string;role:'from'|'to'}|null>(null);
  const [walking,setWalking]=useState(false),[walkRadius,setWalkRadius]=useState(300);
- const selectLine=(id:string)=>{setLineFilter('all');setExpandedLine(id);setDirection(0);setTab('lines');};
+ const selectLine=(id:string,stopId?:string)=>{const selectedLine=network.lines.find(l=>l.id===id);setLineFilter('all');setExpandedLine(id);setDirection(selectedLine?boardingPatternIndex(selectedLine,stopId):0);setTab('lines');};
  useEffect(()=>{
   const title=t('Leonida Transit – GTA 6 Routenplaner & Netzplan');
   const description=t('Plane Bus-, Metro- und Zugverbindungen durch Leonida in GTA 6 – mit Umstiegen, interaktivem Netzplan und Offline-Nutzung. Inoffizielles Fan-Projekt.');

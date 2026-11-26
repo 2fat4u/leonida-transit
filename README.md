@@ -48,7 +48,7 @@ Use `npm run dev` for development. Installation and offline caching require the 
 
 ## Data and license
 
-The app includes a researched fan network and a separate fictional demo. Sources include GTAMap and GTABase; the documented data check is dated **26 November 2026**.
+The app includes a researched fan network and a separate fictional demo. Sources include GTAMap and GTABase; the documented data check is dated **26 November 2026**. See the [direction review](docs/DIRECTION_REVIEW.md) for the source checks and the observed 16/18 P → S segment.
 
 Project-authored code uses the [MIT License](LICENSE). Fan data, map references and game-related rights are covered separately in [DATA_SOURCES.md](DATA_SOURCES.md). Dependency licenses are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
