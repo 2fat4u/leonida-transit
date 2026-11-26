@@ -16,9 +16,24 @@ An unofficial GTA VI transit planner for phones and browsers, built with React a
 - Include optional walking transfers based on straight-line distance. Actual walking paths and barriers are unverified.
 - Import, export and edit networks, or align your own background image. Custom data and images stay on your device.
 
-## Run locally
+## Get the app on your phone
 
-Requires **Node.js 22.12+**. CI uses Node.js 22.
+This repository contains the source code. A public installation link has not been configured in this README yet.
+
+1. Follow the [step-by-step publishing guide](docs/DEPLOYMENT.md) to connect the repository to Cloudflare Pages and publish the website.
+2. Copy the HTTPS app address shown after a successful deployment and open it on your phone.
+3. In Chrome on Android, choose **Install app** or **Add to Home Screen**. Open the installed app online once and wait for the offline-ready indicator.
+
+**Samsung Internet has limited support** for installation and map colours. Chrome on Android worked in the reported device test. Updates are offered under **Data & offline**.
+
+Choose **EN** or **DE**, select a journey and confirm each stop yourself in the journey companion.
+
+## Run locally for development
+
+<details>
+<summary>Developer setup</summary>
+
+Install **Node.js 22.12+**, download or clone this repository, and open a terminal in the project folder. Then run:
 
 ```sh
 npm ci
@@ -27,15 +42,11 @@ npm run build
 npm run preview -- --port 4173
 ```
 
-Open [localhost:4173](http://localhost:4173). Use `npm run dev` for development; installation and offline caching require the production build over HTTPS or localhost.
+While the preview server is running, open `http://localhost:4173` on the same computer. On a phone, `localhost` refers to the phone itself; use the published website address instead.
 
-## Install and use
+Use `npm run dev` for development. Installation and offline caching require the production build over HTTPS or localhost.
 
-Open the deployed app online and choose your browser's **Install app** or **Add to Home Screen** option. Open the installed app online once and wait for its offline-ready indicator. Updates are available under **Data & offline**.
-
-Choose **EN** or **DE**, select your journey, and confirm each stop yourself in the journey companion. Selecting an origin or destination on the map closes the selection and confirms the chosen stop.
-
-**Chrome on Android** worked in the reported device test. **Samsung Internet has limited support** for installation and map colours. Other devices, including iOS hardware, have not been fully verified.
+</details>
 
 ## Data and license
 
@@ -45,19 +56,9 @@ Project-authored code uses the [MIT License](LICENSE). Fan data, map references 
 
 This is an independent fan project, not affiliated with Rockstar Games or Take-Two Interactive.
 
-## Deployment
+## Publishing and further details
 
-For **Cloudflare Pages**, connect this repository and use:
-
-| Setting | Value |
-|---|---|
-| Production branch | `main` |
-| Root directory | Repository root |
-| Node.js version | `22` |
-| Build command | `npm test && npm run build` |
-| Output directory | `dist` |
-
-Choose `leonida-transit` as the project name if available, or another neutral name. Uploading the code does not activate a public app address.
+The [publishing guide](docs/DEPLOYMENT.md) covers Cloudflare account setup, GitHub access, build settings, obtaining your app link and phone installation. It also explains updates and common errors.
 
 The app currently expects hosting at the **domain root**. GitHub Pages project URLs with a repository subpath need path adjustments first.
 
