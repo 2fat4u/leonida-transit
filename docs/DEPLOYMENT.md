@@ -1,5 +1,7 @@
 # Publish the app and install it on your phone
 
+**Just want to use the app?** Open [Leonida Transit](https://leonida-transit.pages.dev/) on your phone and follow [step 3](#3-open-and-install-the-app) below. The publishing steps are for hosting your own copy.
+
 GitHub stores the source code. Publishing turns that code into a website with an HTTPS address. You can then open that address on your phone and install the web app.
 
 You need a Cloudflare account and access to [2fat4u/leonida-transit](https://github.com/2fat4u/leonida-transit). You can use the address Cloudflare provides; a custom domain is optional.

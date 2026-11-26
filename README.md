@@ -18,11 +18,9 @@ An unofficial GTA VI transit planner for phones and browsers, built with React a
 
 ## Get the app on your phone
 
-This repository contains the source code. A public installation link has not been configured in this README yet.
-
-1. Follow the [step-by-step publishing guide](docs/DEPLOYMENT.md) to connect the repository to Cloudflare Pages and publish the website.
-2. Copy the HTTPS app address shown after a successful deployment and open it on your phone.
-3. In Chrome on Android, choose **Install app** or **Add to Home Screen**. Open the installed app online once and wait for the offline-ready indicator.
+1. Open [Leonida Transit](https://leonida-transit.pages.dev/) on your phone in Chrome on Android.
+2. In Chrome's menu, choose **Install app** or **Add to Home Screen** and confirm installation.
+3. Open the installed app online once and wait for the offline-ready indicator.
 
 **Samsung Internet has limited support** for installation and map colours. Chrome on Android worked in the reported device test. Updates are offered under **Data & offline**.
 
