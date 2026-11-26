@@ -53,3 +53,4 @@ body{background:radial-gradient(ellipse at 87% 0%,#64174455,transparent 37rem),r
 .search-card{scroll-margin-top:110px}.selection-confirmation{display:flex;align-items:flex-start;gap:9px;padding:12px;border:1px solid #65ad99;border-radius:6px;background:#183e3c;color:#d3fff0;font-size:.875rem;line-height:1.65;margin:0 0 15px;overflow-wrap:anywhere}.selection-confirmation svg{flex-shrink:0;margin-top:2px}@media(max-width:720px){.search-card{scroll-margin-top:18px}}
 
 .page-intro .app-summary{max-width:65ch;margin-top:14px;font-size:1rem;line-height:1.6}.startup-content{max-width:850px;padding:48px 24px;font-family:Inter,"Segoe UI",Arial,sans-serif;line-height:1.6}
+.brand small{text-transform:uppercase}
