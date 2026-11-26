@@ -1,0 +1,22 @@
+import {test,beforeEach} from 'node:test';
+import assert from 'node:assert/strict';
+import {demoNetwork} from '../src/data.ts';
+import {researchNetwork} from '../src/research-data.ts';
+import {findJourney,startRide,advanceRide} from '../src/model.ts';
+import {readNetwork,readRide,saveLocal} from '../src/storage.ts';
+const data=new Map<string,string>();
+Object.defineProperty(globalThis,'localStorage',{value:{getItem:(key:string)=>data.get(key)??null,setItem:(key:string,v:string)=>data.set(key,v),removeItem:(key:string)=>data.delete(key)},configurable:true});
+beforeEach(()=>data.clear());
+test('Malformed local network gracefully falls back to the researched default',()=>{data.set('vct-network','broken');assert.equal(readNetwork().id,researchNetwork.id);});
+test('Ride progress and transfer phase survive storage',()=>{const j=findJourney(demoNetwork,'hamlet','bayside')!;let r=startRide(demoNetwork.id,j);r=advanceRide(r);r=advanceRide(r);r=advanceRide(r);assert.equal(r.phase,'transfer');assert.ok(saveLocal('vct-ride',r));assert.deepEqual(readRide(demoNetwork),r);});
+test('Ring journeys crossing terminal can resume',()=>{const r=startRide(demoNetwork.id,findJourney(demoNetwork,'island','canal',['bus'])!);saveLocal('vct-ride',r);assert.deepEqual(readRide(demoNetwork),r);});
+test('Corrupt progress, mismatched networks and invalid legs are ignored',()=>{const r=startRide(demoNetwork.id,findJourney(demoNetwork,'hamlet','bayside')!);saveLocal('vct-ride',{...r,leg:1000});assert.equal(readRide(demoNetwork),null);saveLocal('vct-ride',{...r,networkId:'other'});assert.equal(readRide(demoNetwork),null);r.journey.legs[0].stops[1]='missing';saveLocal('vct-ride',r);assert.equal(readRide(demoNetwork),null);});
+test('Old demo networks migrate to the revised three-mode demo',()=>{saveLocal('vct-network',{...demoNetwork,id:'vct-demo-1'});assert.equal(readNetwork().id,demoNetwork.id);assert.equal(readNetwork().lines.some(l=>(l.mode as string)==='night'),false);});
+test('Legacy imports retain daytime lines and exclude the removed category',()=>{const n=structuredClone(demoNetwork);(n.lines[3] as {mode:string}).mode='night';saveLocal('vct-network',n);const loaded=readNetwork();assert.equal(loaded.lines.length,3);assert.equal(loaded.lines.some(l=>(l.mode as string)==='night'),false);assert.ok(data.get('vct-network')!.includes('night'));});
+test('Adding sourced positions upgrades the previous built-in network while preserving a validated active ride',()=>{
+ const previous={...researchNetwork,id:'lt-research-20261126-2',stops:researchNetwork.stops.map(({position:_,...s})=>s)};
+ const journey=findJourney(previous,'vice-city-arts-center-metro-station','fleeca-field-metro-station')!;
+ const ride=startRide(previous.id,journey);saveLocal('vct-network',previous);saveLocal('vct-ride',ride);
+ const loaded=readNetwork();assert.equal(loaded.id,researchNetwork.id);assert.ok(loaded.stops.every(s=>s.position));
+ assert.deepEqual(readRide(loaded),{...ride,networkId:loaded.id});
+});

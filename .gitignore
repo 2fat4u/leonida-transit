@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.sites-runtime/
+*.tsbuildinfo
+test-results/
+.openai/
+.env
+.env.*
+!.env.example
+.DS_Store
+coverage/

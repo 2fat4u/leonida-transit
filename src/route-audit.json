@@ -1,0 +1,980 @@
+{
+  "checkedAt": "2026-11-26",
+  "sourceUrl": "https://gtamap.io/data/transit/gta6.json?v=ae10a7b6",
+  "sourceSha256": "ae10a7b6ba5881c8ce0687750c74dc8c47787dbb96e0da408d29a2de6884b408",
+  "independentRouteVerification": false,
+  "directions": [
+    {
+      "lineId": "MM",
+      "patternId": "listed",
+      "sourceRouteId": "metromule",
+      "sourceCalls": 17,
+      "normalizedCalls": 16,
+      "consecutiveDuplicates": 1,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "vice-city-arts-center-metro-station",
+          "calls": [
+            1,
+            15
+          ]
+        },
+        {
+          "stopId": "vice-civic-center-station",
+          "calls": [
+            3,
+            11
+          ]
+        },
+        {
+          "stopId": "downtown-metro-station-south",
+          "calls": [
+            4,
+            10
+          ]
+        },
+        {
+          "stopId": "mule-city-line-2",
+          "calls": [
+            5,
+            9
+          ]
+        },
+        {
+          "stopId": "tequesta-station",
+          "calls": [
+            6,
+            8
+          ]
+        },
+        {
+          "stopId": "downtown-metromover-station",
+          "calls": [
+            12,
+            14
+          ]
+        }
+      ],
+      "calls": [
+        "vice-city-arts-center-metro-station",
+        "courthouse-station",
+        "vice-civic-center-station",
+        "downtown-metro-station-south",
+        "mule-city-line-2",
+        "tequesta-station",
+        "peacock-bay-metro-station",
+        "tequesta-station",
+        "mule-city-line-2",
+        "downtown-metro-station-south",
+        "vice-civic-center-station",
+        "downtown-metromover-station",
+        "catalan-blvd-metromover-station",
+        "downtown-metromover-station",
+        "vice-city-arts-center-metro-station",
+        "crosstown-metromover-station"
+      ]
+    },
+    {
+      "lineId": "AM",
+      "patternId": "listed",
+      "sourceRouteId": "airmule",
+      "sourceCalls": 5,
+      "normalizedCalls": 4,
+      "consecutiveDuplicates": 1,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "vcia-metro-mover-station",
+          "calls": [
+            2,
+            4
+          ]
+        }
+      ],
+      "calls": [
+        "vice-city-international-airport-metromover-station",
+        "vcia-metro-mover-station",
+        "vice-city-airport-village-station",
+        "vcia-metro-mover-station"
+      ]
+    },
+    {
+      "lineId": "MT",
+      "patternId": "cw",
+      "sourceRouteId": "metrotrain-cw",
+      "sourceCalls": 3,
+      "normalizedCalls": 3,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "fleeca-field-metro-station",
+        "downtown-metro-station-north",
+        "vcia-metro-station"
+      ]
+    },
+    {
+      "lineId": "MT",
+      "patternId": "ccw",
+      "sourceRouteId": "metrotrain-acw",
+      "sourceCalls": 3,
+      "normalizedCalls": 3,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "vice-civic-center-station",
+        "fleeca-field-metro-station",
+        "vcia-metro-station"
+      ]
+    },
+    {
+      "lineId": "AR",
+      "patternId": "cw",
+      "sourceRouteId": "amloco-cw",
+      "sourceCalls": 7,
+      "normalizedCalls": 7,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "amloco-railway",
+        "capri-train-station",
+        "port-gellhorn-train-station",
+        "draper-island-station",
+        "grayson-station",
+        "ambrosia-station",
+        "vcia-train-station"
+      ]
+    },
+    {
+      "lineId": "AR",
+      "patternId": "ccw",
+      "sourceRouteId": "amloco-acw",
+      "sourceCalls": 8,
+      "normalizedCalls": 8,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "waning-sands-train-station",
+        "millport-train-station",
+        "grayson-station",
+        "draper-island-station",
+        "port-gellhorn-train-station",
+        "capri-train-station",
+        "amloco-railway",
+        "vcia-train-station"
+      ]
+    },
+    {
+      "lineId": "69",
+      "patternId": "listed",
+      "sourceRouteId": "69",
+      "sourceCalls": 5,
+      "normalizedCalls": 5,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "west-royale-st-d",
+        "nw-16th-ave-a",
+        "sr-25-c",
+        "gulf-st",
+        "basin-dr"
+      ]
+    },
+    {
+      "lineId": "420",
+      "patternId": "listed",
+      "sourceRouteId": "420",
+      "sourceCalls": 32,
+      "normalizedCalls": 32,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "sw-5th-ave-c",
+          "calls": [
+            3,
+            29
+          ]
+        },
+        {
+          "stopId": "sw-5th-ave-f",
+          "calls": [
+            4,
+            28
+          ]
+        },
+        {
+          "stopId": "sw-3rd-st-a",
+          "calls": [
+            7,
+            24
+          ]
+        },
+        {
+          "stopId": "sw-2nd-st-a",
+          "calls": [
+            9,
+            22
+          ]
+        },
+        {
+          "stopId": "nw-4th-ave-i",
+          "calls": [
+            14,
+            18
+          ]
+        }
+      ],
+      "calls": [
+        "south-vice-ave-a",
+        "sw-8th-st",
+        "sw-5th-ave-c",
+        "sw-5th-ave-f",
+        "sw-5th-ave-h",
+        "sw-4th-ave-a",
+        "sw-3rd-st-a",
+        "south-vice-ave-i",
+        "sw-2nd-st-a",
+        "nw-4th-ave-b",
+        "nw-4th-ave-c",
+        "nw-4th-ave-e",
+        "nw-4th-ave-g",
+        "nw-4th-ave-i",
+        "northbrook-dr-b",
+        "northbrook-dr-c",
+        "rialto-cswy-a",
+        "nw-4th-ave-i",
+        "nw-4th-ave-f",
+        "nw-4th-ave-d",
+        "nw-4th-ave-a",
+        "sw-2nd-st-a",
+        "south-vice-ave-h",
+        "sw-3rd-st-a",
+        "sw-4th-ave-b",
+        "sw-4th-st-a",
+        "sw-5th-ave-g",
+        "sw-5th-ave-f",
+        "sw-5th-ave-c",
+        "sw-5th-ave-b",
+        "sw-5th-ave-a",
+        "sw-3rd-ave-d"
+      ]
+    },
+    {
+      "lineId": "1024",
+      "patternId": "listed",
+      "sourceRouteId": "1024",
+      "sourceCalls": 32,
+      "normalizedCalls": 32,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "nw-9th-ave-e",
+          "calls": [
+            6,
+            24
+          ]
+        },
+        {
+          "stopId": "nw-9th-ave-b",
+          "calls": [
+            8,
+            23
+          ]
+        },
+        {
+          "stopId": "nw-9th-st-b",
+          "calls": [
+            12,
+            22
+          ]
+        }
+      ],
+      "calls": [
+        "ne-5th-ave-f",
+        "coral-ave-b",
+        "coral-ave-a",
+        "del-rio-blvd-l",
+        "nw-12th-st-a",
+        "nw-9th-ave-e",
+        "nw-9th-ave-d",
+        "nw-9th-ave-b",
+        "nw-8th-ave-a",
+        "rialto-cswy-b",
+        "nw-9th-ave-a",
+        "nw-9th-st-b",
+        "nw-9th-st-a",
+        "northbrook-dr-a",
+        "westbrook-dr-i",
+        "westbrook-dr-h",
+        "westbrook-dr-g",
+        "nw-16th-ave-b",
+        "nw-20th-st-a",
+        "northbrook-dr-b",
+        "northbrook-dr-c",
+        "nw-9th-st-b",
+        "nw-9th-ave-b",
+        "nw-9th-ave-e",
+        "nw-12th-st-b",
+        "del-rio-blvd-k",
+        "del-rio-blvd-m",
+        "nw-4th-st-b",
+        "ne-5th-ave-e",
+        "ne-17th-st",
+        "ne-6th-ave-c",
+        "ne-19th-st"
+      ]
+    },
+    {
+      "lineId": "1029",
+      "patternId": "listed",
+      "sourceRouteId": "1029",
+      "sourceCalls": 43,
+      "normalizedCalls": 43,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "ne-5th-ave-a",
+          "calls": [
+            7,
+            41
+          ]
+        },
+        {
+          "stopId": "ne-1st-ave-b",
+          "calls": [
+            11,
+            36
+          ]
+        },
+        {
+          "stopId": "ne-1st-ave-a",
+          "calls": [
+            12,
+            35
+          ]
+        }
+      ],
+      "calls": [
+        "catalan-blvd-u",
+        "catalan-blvd-t",
+        "ne-6th-ave-c",
+        "crockett-ter",
+        "ne-5th-ave-f",
+        "ne-5th-ave-d",
+        "ne-5th-ave-a",
+        "ne-4th-ave-a",
+        "mirimar-dr-b",
+        "catalan-blvd-m",
+        "ne-1st-ave-b",
+        "ne-1st-ave-a",
+        "catalan-blvd-g",
+        "catalan-blvd-c",
+        "catalan-blvd-b",
+        "south-vice-ave-g",
+        "harbor-sound-dr-b",
+        "harbor-sound-dr-a",
+        "south-vice-ave-d",
+        "sw-7th-st",
+        "sw-5th-ave-b",
+        "sw-5th-ave-a",
+        "i-97-a",
+        "cicada-ave-c",
+        "cicada-ave-b",
+        "sw-10th-ave-a",
+        "cicada-ave-d",
+        "sw-3rd-ave-d",
+        "south-vice-ave-a",
+        "south-vice-ave-b",
+        "south-vice-ave-e",
+        "catalan-blvd-a",
+        "catalan-blvd-d",
+        "catalan-blvd-e",
+        "ne-1st-ave-a",
+        "ne-1st-ave-b",
+        "catalan-blvd-l",
+        "mirimar-dr-c",
+        "mirimar-dr-a",
+        "ne-4th-ave-b",
+        "ne-5th-ave-a",
+        "ne-5th-ave-c",
+        "vineyard-dr-a"
+      ]
+    },
+    {
+      "lineId": "1032",
+      "patternId": "listed",
+      "sourceRouteId": "1032",
+      "sourceCalls": 26,
+      "normalizedCalls": 26,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "sw-10th-ave-b",
+        "sw-3rd-ave-c",
+        "sw-9th-ave-a",
+        "sw-9th-ave-d",
+        "el-joven-blvd-a",
+        "el-joven-blvd-b",
+        "bayside-dr",
+        "westbrook-dr-a",
+        "westbrook-dr-c",
+        "nw-20th-st-a",
+        "omega-pkwy",
+        "westbrook-dr-i",
+        "westbrook-dr-h",
+        "nw-20th-st-b",
+        "nw-16th-ave-c",
+        "westbrook-dr-f",
+        "westbrook-dr-e",
+        "westbrook-dr-d",
+        "westbrook-dr-b",
+        "sw-16th-st",
+        "sw-9th-ave-c",
+        "sw-9th-ave-b",
+        "sw-3rd-ave-a",
+        "sw-3rd-ave-b",
+        "sw-10th-ave-c",
+        "sw-10th-ave-a"
+      ]
+    },
+    {
+      "lineId": "1050",
+      "patternId": "listed",
+      "sourceRouteId": "1050",
+      "sourceCalls": 31,
+      "normalizedCalls": 31,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "rialto-cswy-i",
+          "calls": [
+            5,
+            23
+          ]
+        }
+      ],
+      "calls": [
+        "rialto-cswy-r",
+        "rialto-cswy-p",
+        "rialto-cswy-n",
+        "rialto-cswy-k",
+        "rialto-cswy-i",
+        "rialto-cswy-g",
+        "rialto-cswy-e",
+        "rialto-cswy-c",
+        "northbrook-dr-e",
+        "del-rio-blvd-e",
+        "del-rio-blvd-c",
+        "del-rio-blvd-b",
+        "sr-25-a",
+        "nw-15th-ave-a",
+        "nw-15th-ave-b",
+        "sr-25-b",
+        "del-rio-blvd-a",
+        "del-rio-blvd-d",
+        "northbrook-dr-d",
+        "rialto-cswy-b",
+        "rialto-cswy-d",
+        "rialto-cswy-f",
+        "rialto-cswy-i",
+        "rialto-cswy-j",
+        "rialto-cswy-l",
+        "rialto-cswy-m",
+        "rialto-cswy-o",
+        "rialto-cswy-q",
+        "rialto-cswy-t",
+        "azelia-st-a",
+        "rialto-cswy-s"
+      ]
+    },
+    {
+      "lineId": "1071",
+      "patternId": "listed",
+      "sourceRouteId": "1071",
+      "sourceCalls": 34,
+      "normalizedCalls": 34,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "north-vice-ave-g",
+          "calls": [
+            9,
+            22
+          ]
+        },
+        {
+          "stopId": "north-vice-ave-k",
+          "calls": [
+            11,
+            20
+          ]
+        }
+      ],
+      "calls": [
+        "south-vice-ave-c",
+        "south-vice-ave-e",
+        "south-vice-ave-f",
+        "south-vice-ave-i",
+        "south-vice-ave-j",
+        "north-vice-ave-b",
+        "north-vice-ave-d",
+        "north-vice-ave-f",
+        "north-vice-ave-g",
+        "north-vice-ave-i",
+        "north-vice-ave-k",
+        "rialto-cswy-e",
+        "rialto-cswy-c",
+        "rialto-cswy-a",
+        "del-rio-blvd-a",
+        "del-rio-blvd-d",
+        "northbrook-dr-d",
+        "rialto-cswy-b",
+        "rialto-cswy-d",
+        "north-vice-ave-k",
+        "unknown-1071-0-21",
+        "north-vice-ave-g",
+        "north-vice-ave-e",
+        "north-vice-ave-c",
+        "north-vice-ave-a",
+        "mariners-hwy-a",
+        "south-vice-ave-h",
+        "south-vice-ave-g",
+        "south-vice-ave-d",
+        "ocean-sound-rd-b",
+        "harbor-key-loop",
+        "gloriana-key-rd-b",
+        "gloriana-key-rd-a",
+        "barentine-dr"
+      ]
+    },
+    {
+      "lineId": "1618",
+      "patternId": "cw",
+      "sourceRouteId": "1618-cw",
+      "sourceCalls": 21,
+      "normalizedCalls": 21,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "atlantic-ave-j",
+        "atlantic-ave-i",
+        "atlantic-ave-f",
+        "atlantic-ave-e",
+        "atlantic-ave-d",
+        "atlantic-ave-a",
+        "shore-dr-a",
+        "thompson-ave-b",
+        "koko-blvd-a",
+        "koko-blvd-b",
+        "admiral-dr-b",
+        "catalan-blvd-g",
+        "catalan-blvd-h",
+        "catalan-blvd-k",
+        "delphino-cir-b",
+        "delphino-cir-c",
+        "catalan-blvd-n",
+        "catalan-blvd-p",
+        "catalan-blvd-s",
+        "shorebeach-rd-b",
+        "shorebeach-rd-a"
+      ]
+    },
+    {
+      "lineId": "1618",
+      "patternId": "ccw",
+      "sourceRouteId": "1618-acw",
+      "sourceCalls": 21,
+      "normalizedCalls": 21,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "atlantic-ave-q",
+        "vineyard-dr-c",
+        "ne-6th-ave-b",
+        "ne-6th-ave-a",
+        "catalan-blvd-r",
+        "catalan-blvd-q",
+        "catalan-blvd-o",
+        "delphino-cir-c",
+        "delphino-cir-a",
+        "catalan-blvd-j",
+        "catalan-blvd-g",
+        "catalan-blvd-i",
+        "admiral-dr-a",
+        "thompson-ave-a",
+        "shore-dr-b",
+        "atlantic-ave-a",
+        "atlantic-ave-d",
+        "atlantic-ave-f",
+        "atlantic-ave-i",
+        "atlantic-ave-k",
+        "shorebeach-rd-c"
+      ]
+    },
+    {
+      "lineId": "A55",
+      "patternId": "listed",
+      "sourceRouteId": "a55",
+      "sourceCalls": 22,
+      "normalizedCalls": 22,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "nw-3rd-st-b",
+          "calls": [
+            6,
+            19
+          ]
+        },
+        {
+          "stopId": "sr-25-e",
+          "calls": [
+            7,
+            18
+          ]
+        }
+      ],
+      "calls": [
+        "ne-1st-st-a",
+        "ne-vice-ct",
+        "mariners-hwy-b",
+        "nw-1st-ave-a",
+        "nw-1st-ave-b",
+        "nw-3rd-st-b",
+        "sr-25-e",
+        "sr-25-c",
+        "nw-19th-st-b",
+        "nw-19th-st-c",
+        "nw-17th-st-c",
+        "nw-17th-st-b",
+        "nw-17th-st-a",
+        "nw-15th-ave-a",
+        "nw-15th-ave-b",
+        "nw-17th-st-d",
+        "nw-19th-st-a",
+        "sr-25-e",
+        "nw-3rd-st-b",
+        "nw-3rd-st-c",
+        "catalan-blvd-g",
+        "ne-1st-st-b"
+      ]
+    },
+    {
+      "lineId": "LC",
+      "patternId": "listed",
+      "sourceRouteId": "lc",
+      "sourceCalls": 15,
+      "normalizedCalls": 15,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "del-rio-blvd-h",
+          "calls": [
+            5,
+            13
+          ]
+        }
+      ],
+      "calls": [
+        "nw-13th-st",
+        "ne-14th-st",
+        "del-rio-blvd-i",
+        "del-rio-blvd-g",
+        "del-rio-blvd-h",
+        "nw-8th-ave-b",
+        "rialto-cswy-c",
+        "nw-8th-st-a",
+        "nw-8th-st-b",
+        "nw-9th-st-b",
+        "nw-6th-ave",
+        "nw-8th-ave-a",
+        "del-rio-blvd-h",
+        "del-rio-blvd-j",
+        "del-rio-blvd-k"
+      ]
+    },
+    {
+      "lineId": "N02",
+      "patternId": "listed",
+      "sourceRouteId": "n02",
+      "sourceCalls": 48,
+      "normalizedCalls": 48,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "west-royale-st-b",
+          "calls": [
+            3,
+            47
+          ]
+        },
+        {
+          "stopId": "i-97-b",
+          "calls": [
+            4,
+            45
+          ]
+        },
+        {
+          "stopId": "vineyard-dr-c",
+          "calls": [
+            25,
+            27
+          ]
+        }
+      ],
+      "calls": [
+        "unknown-N02-0-1",
+        "vcia-circular-a",
+        "west-royale-st-b",
+        "i-97-b",
+        "west-royale-st-g",
+        "east-royale-st",
+        "catalan-blvd-f",
+        "catalan-blvd-h",
+        "catalan-blvd-i",
+        "admiral-cswy-b",
+        "thompson-ave-c",
+        "thompson-ave-f",
+        "thompson-ave-h",
+        "thompson-ave-j",
+        "thompson-ave-l",
+        "thompson-ave-n",
+        "thompson-ave-p",
+        "atlantic-ave-m",
+        "atlantic-ave-n",
+        "atlantic-ave-q",
+        "northside-ave-a",
+        "northside-ave-b",
+        "atlantic-ave-s",
+        "atlantic-ave-r",
+        "vineyard-dr-c",
+        "vineyard-dr-a",
+        "vineyard-dr-c",
+        "atlantic-ave-p",
+        "atlantic-ave-o",
+        "atlantic-ave-l",
+        "azelia-st-b",
+        "thompson-ave-o",
+        "thompson-ave-m",
+        "thompson-ave-k",
+        "thompson-ave-i",
+        "thompson-ave-g",
+        "thompson-ave-e",
+        "thompson-ave-d",
+        "seaview-blvd",
+        "admiral-cswy-a",
+        "catalan-blvd-g",
+        "ne-1st-st-b",
+        "north-vice-ave-a",
+        "west-royale-st-f",
+        "i-97-b",
+        "west-royale-st-c",
+        "west-royale-st-b",
+        "vcia-circular-b"
+      ]
+    },
+    {
+      "lineId": "KL",
+      "patternId": "listed",
+      "sourceRouteId": "keys-loop",
+      "sourceCalls": 9,
+      "normalizedCalls": 9,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [
+        {
+          "stopId": "nw-18th-ave-a",
+          "calls": [
+            1,
+            8
+          ]
+        },
+        {
+          "stopId": "palmetto-ave-b",
+          "calls": [
+            2,
+            7
+          ]
+        }
+      ],
+      "calls": [
+        "nw-18th-ave-a",
+        "palmetto-ave-b",
+        "sunbelt-hwy-b",
+        "queen-palm-ave",
+        "sunbelt-hwy-a",
+        "ocean-sound-rd-a",
+        "palmetto-ave-b",
+        "nw-18th-ave-a",
+        "ne-1st-ave-e"
+      ]
+    },
+    {
+      "lineId": "SL",
+      "patternId": "cw",
+      "sourceRouteId": "state-loop-cw",
+      "sourceCalls": 14,
+      "normalizedCalls": 14,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "cicada-ave-a",
+        "palmetto-ave-b",
+        "unknown-SL-0-3",
+        "us-82-b",
+        "unknown-SL-0-5",
+        "us-9-b",
+        "unknown-SL-0-7",
+        "unknown-SL-0-8",
+        "unknown-SL-0-9",
+        "unknown-SL-0-10",
+        "discovery-st-b",
+        "unknown-SL-0-12",
+        "ne-1st-ave-d",
+        "nw-18th-ave-b"
+      ]
+    },
+    {
+      "lineId": "SL",
+      "patternId": "ccw",
+      "sourceRouteId": "state-loop-acw",
+      "sourceCalls": 12,
+      "normalizedCalls": 12,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "ne-1st-ave-d",
+        "unknown-SL-1-2",
+        "unknown-SL-1-3",
+        "unknown-SL-1-4",
+        "unknown-SL-1-5",
+        "unknown-SL-1-6",
+        "us-9-a",
+        "unknown-SL-1-8",
+        "us-82-b",
+        "unknown-SL-1-10",
+        "palmetto-ave-b",
+        "nw-18th-ave-b"
+      ]
+    },
+    {
+      "lineId": "CL",
+      "patternId": "cw",
+      "sourceRouteId": "capri-loop-cw",
+      "sourceCalls": 6,
+      "normalizedCalls": 6,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "unknown-CL-0-1",
+        "unknown-CL-0-2",
+        "unknown-CL-0-3",
+        "unknown-CL-0-4",
+        "unknown-CL-0-5",
+        "unknown-CL-0-6"
+      ]
+    },
+    {
+      "lineId": "CL",
+      "patternId": "ccw",
+      "sourceRouteId": "capri-loop-acw",
+      "sourceCalls": 7,
+      "normalizedCalls": 7,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "unknown-CL-1-1",
+        "unknown-CL-1-2",
+        "unknown-CL-1-3",
+        "unknown-CL-1-4",
+        "unknown-CL-1-5",
+        "unknown-CL-1-6",
+        "unknown-CL-1-7"
+      ]
+    },
+    {
+      "lineId": "HL",
+      "patternId": "cw",
+      "sourceRouteId": "hamlet-loop-cw",
+      "sourceCalls": 7,
+      "normalizedCalls": 7,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "unknown-HL-0-1",
+        "unknown-HL-0-2",
+        "unknown-HL-0-3",
+        "unknown-HL-0-4",
+        "unknown-HL-0-5",
+        "unknown-HL-0-6",
+        "palmetto-ave-b"
+      ]
+    },
+    {
+      "lineId": "HL",
+      "patternId": "ccw",
+      "sourceRouteId": "hamlet-loop-acw",
+      "sourceCalls": 7,
+      "normalizedCalls": 7,
+      "consecutiveDuplicates": 0,
+      "sourceLoop": true,
+      "geometryClosed": true,
+      "repeated": [],
+      "calls": [
+        "palmetto-ave-a",
+        "unknown-HL-1-2",
+        "unknown-HL-1-3",
+        "unknown-HL-1-4",
+        "unknown-HL-1-5",
+        "unknown-HL-1-6",
+        "unknown-HL-1-7"
+      ]
+    }
+  ]
+}
