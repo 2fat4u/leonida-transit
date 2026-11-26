@@ -88,3 +88,5 @@ For provenance and licensing distinctions, see [DATA_SOURCES.md](../DATA_SOURCES
 ## Optional walking alternative
 
 When walking is off, a separate suggestion can appear below an existing route if walking saves at least three ride segments and 25% compared with both that route and the shortest route available without walking. It respects the selected transport modes and walking radius, with a maximum of 500 metres total straight-line walking for automatic suggestions. Paths and crossings remain unverified. The preview compares segment counts, walking distance and transfers; opening it keeps the original result. Only choosing Use this alternative replaces the result, enables walking and selects the fewest-stops preference. The existing routing graph is unchanged.
+
+A dismissible notice above the main result announces an available walking alternative. Selecting it opens and scrolls to the preview without adopting the route. Dismissal applies to the current result; a fresh search can show the notice again.

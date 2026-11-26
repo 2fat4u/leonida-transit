@@ -528,5 +528,8 @@
   "Diese Alternative verwenden": "Use this alternative",
   "Alternative mit Fußweg übernommen.": "Walking alternative selected.",
   "{0} statt {1} Umstiege": "{0} instead of {1} transfers",
-  "Luftlinie": "Straight-line distance"
+  "Luftlinie": "Straight-line distance",
+  "Alternative Verbindung verfügbar": "Alternative route available",
+  "Ca. {0} zu Fuß (Luftlinie)": "Approx. {0} on foot (straight line)",
+  "Hinweis zur Alternative ausblenden": "Dismiss alternative route notice"
 }

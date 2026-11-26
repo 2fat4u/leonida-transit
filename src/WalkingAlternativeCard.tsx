@@ -1,17 +1,18 @@
 import {Footprints} from 'lucide-react';
+import type {RefObject} from 'react';
 import {t} from './i18n';
 import {stopDisplayName,type Network} from './model';
 import {formatDistance,useUnits} from './units';
 import type {WalkingAlternative} from './walking-alternative';
 
-export function WalkingAlternativeCard({alternative,network,onChoose}:{alternative:WalkingAlternative;network:Network;onChoose:()=>void}){
+export function WalkingAlternativeCard({alternative,network,onChoose,detailsRef}:{alternative:WalkingAlternative;network:Network;onChoose:()=>void;detailsRef?:RefObject<HTMLDetailsElement|null>}){
  const [units]=useUnits();
  const name=(id:string)=>{const stop=network.stops.find(s=>s.id===id);return stop?stopDisplayName(stop):id;};
- return <aside className="walking-alternative" aria-label={t('Alternative mit Fußweg')}>
+ return <aside id="walking-alternative" className="walking-alternative" aria-label={t('Alternative mit Fußweg')}>
   <h3><Footprints size={20}/>{t('Alternative mit Fußweg')}</h3>
   <p className="alternative-saving"><strong>{t('{0} statt {1} Streckenabschnitte',alternative.segments,alternative.originalSegments)}</strong><span>{t('Zusätzlich ca. {0} Luftlinie zu Fuß',formatDistance(alternative.walkingMetres,units))}</span></p>
   <p>{t('{0} statt {1} Umstiege',alternative.journey.transfers,alternative.originalTransfers)}</p>
-  <details><summary>{t('Alternative mit Fußweg ansehen')}</summary>
+  <details id="walking-alternative-preview" ref={detailsRef}><summary>{t('Alternative mit Fußweg ansehen')}</summary>
    <ol className="alternative-legs">{alternative.journey.legs.map((leg,index)=><li key={index}>
     {leg.kind==='walk'?<><strong>{t('Zu Fuß zu {0}',name(leg.stops.at(-1)!))}</strong><span>{t('Von {0}',name(leg.stops[0]))} · {formatDistance(leg.distance??0,units)} {t('Luftlinie')}</span></>:<><strong>{leg.lineId} · {name(leg.stops[0])}</strong><span>{t('Aussteigen: {0}',name(leg.stops.at(-1)!))}</span></>}
    </li>)}</ol>
