@@ -1,0 +1,4297 @@
+{
+  "checkedAt": "2026-11-27",
+  "sourceReceipts": [
+    {
+      "file": "names-transit.json",
+      "url": "https://gtamap.io/data/transit/gta6.json?v=ae10a7b6",
+      "bytes": 192265,
+      "sha256": "ae10a7b6ba5881c8ce0687750c74dc8c47787dbb96e0da408d29a2de6884b408"
+    },
+    {
+      "file": "names-lines.html",
+      "url": "https://gtamap.io/gta-6-transit-lines/",
+      "bytes": 271312,
+      "sha256": "13571343b78c0d0c9569769956e332ccfae5d14519793c4fe978ea0e9b50fb54"
+    },
+    {
+      "file": "names-gtabase.html",
+      "url": "https://www.gtabase.com/gta-6/map/?feature=bus-stop",
+      "bytes": 376197,
+      "sha256": "f026765c4e2ef6ca06df71caab71bf43e7a60818076d1a7837e1dc30831a1a24"
+    }
+  ],
+  "independentGameVerification": false,
+  "renamedStops": [],
+  "scan": {
+    "importedStops": 340,
+    "sourceMarkerNameMismatches": [],
+    "multipleNamesForSameSourceMarker": [],
+    "linePageVsTransitFileMismatches": [],
+    "busStopNamesCompared": 272,
+    "gtabaseStreetAndLetterMatches": 272,
+    "gtabaseExactDistrictMatches": 9
+  },
+  "busNameComparisons": [
+    {
+      "stopId": "west-royale-st-d",
+      "name": "West Royale St, Salton (Stop D)",
+      "matches": [
+        {
+          "name": "West Royale St - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-16th-ave-a",
+      "name": "NW 16th Ave, Salton (Stop A)",
+      "matches": [
+        {
+          "name": "NW 16th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sr-25-c",
+      "name": "SR-25, Salton (Stop C)",
+      "matches": [
+        {
+          "name": "SR-25 - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "gulf-st",
+      "name": "Gulf St, Port VC",
+      "matches": [
+        {
+          "name": "Gulf St",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "basin-dr",
+      "name": "Basin Dr, Port VC",
+      "matches": [
+        {
+          "name": "Basin Dr",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-a",
+      "name": "South Vice Ave, Peacock Bay (Stop A)",
+      "matches": [
+        {
+          "name": "South Vice Ave - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-8th-st",
+      "name": "SW 8th St, Peacock Bay",
+      "matches": [
+        {
+          "name": "SW 8th St",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-c",
+      "name": "SW 5th Ave, Peacock Bay (Stop C)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - C",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-f",
+      "name": "SW 5th Ave, Tequesta (Stop F)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - F",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-h",
+      "name": "SW 5th Ave, Tequesta (Stop H)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - H",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-4th-ave-a",
+      "name": "SW 4th Ave, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "SW 4th Ave - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-st-a",
+      "name": "SW 3rd St, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "SW 3rd St - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-i",
+      "name": "South Vice Ave, Tequesta (Stop I)",
+      "matches": [
+        {
+          "name": "South Vice Ave - I",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-2nd-st-a",
+      "name": "SW 2nd St, Downtown (Stop A)",
+      "matches": [
+        {
+          "name": "SW 2nd St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-b",
+      "name": "NW 4th Ave, Little Cuba (Stop B)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-c",
+      "name": "NW 4th Ave, Little Cuba (Stop C)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-e",
+      "name": "NW 4th Ave, Little Cuba (Stop E)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-g",
+      "name": "NW 4th Ave, Little Cuba (Stop G)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - G",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-i",
+      "name": "NW 4th Ave, Little Cuba (Stop I)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - I",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "northbrook-dr-b",
+      "name": "Northbrook Dr, Rockridge (Stop B)",
+      "matches": [
+        {
+          "name": "Northbrook Dr - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "northbrook-dr-c",
+      "name": "Northbrook Dr, Rockridge (Stop C)",
+      "matches": [
+        {
+          "name": "Northbrook Dr - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-a",
+      "name": "Rialto Cswy, Rockridge (Stop A)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-f",
+      "name": "NW 4th Ave, Little Cuba (Stop F)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - F",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-d",
+      "name": "NW 4th Ave, Little Cuba (Stop D)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-ave-a",
+      "name": "NW 4th Ave, Little Cuba (Stop A)",
+      "matches": [
+        {
+          "name": "NW 4th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-h",
+      "name": "South Vice Ave, Tequesta (Stop H)",
+      "matches": [
+        {
+          "name": "South Vice Ave - H",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-4th-ave-b",
+      "name": "SW 4th Ave, Tequesta (Stop B)",
+      "matches": [
+        {
+          "name": "SW 4th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-4th-st-a",
+      "name": "SW 4th St, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "SW 4th St - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-g",
+      "name": "SW 5th Ave, Tequesta (Stop G)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - G",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-b",
+      "name": "SW 5th Ave, Peacock Bay (Stop B)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-a",
+      "name": "SW 5th Ave, Peacock Bay (Stop A)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-d",
+      "name": "SW 3rd Ave, Peacock Bay (Stop D)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - D",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-5th-ave-f",
+      "name": "NE 5th Ave, Stockyard (Stop F)",
+      "matches": [
+        {
+          "name": "NE 5th Ave - F",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "coral-ave-b",
+      "name": "Coral Ave, Stockyard (Stop B)",
+      "matches": [
+        {
+          "name": "Coral Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "coral-ave-a",
+      "name": "Coral Ave, La Perle (Stop A)",
+      "matches": [
+        {
+          "name": "Coral Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-l",
+      "name": "Del Rio Blvd, La Perle (Stop L)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - L",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-12th-st-a",
+      "name": "NW 12th St, La Perle (Stop A)",
+      "matches": [
+        {
+          "name": "NW 12th St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-9th-ave-e",
+      "name": "NW 9th Ave, La Perle (Stop E)",
+      "matches": [
+        {
+          "name": "NW 9th Ave - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-9th-ave-d",
+      "name": "NW 9th Ave, La Perle (Stop D)",
+      "matches": [
+        {
+          "name": "NW 9th Ave - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-9th-ave-b",
+      "name": "NW 9th Ave, Rockridge (Stop B)",
+      "matches": [
+        {
+          "name": "NW 9th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-8th-ave-a",
+      "name": "NW 8th Ave, Rockridge (Stop A)",
+      "matches": [
+        {
+          "name": "NW 8th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-b",
+      "name": "Rialto Cswy, Rockridge (Stop B)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-9th-ave-a",
+      "name": "NW 9th Ave, Rockridge (Stop A)",
+      "matches": [
+        {
+          "name": "NW 9th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-9th-st-b",
+      "name": "NW 9th St, Rockridge (Stop B)",
+      "matches": [
+        {
+          "name": "NW 9th St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-9th-st-a",
+      "name": "NW 9th St, Rockridge (Stop A)",
+      "matches": [
+        {
+          "name": "NW 9th St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "northbrook-dr-a",
+      "name": "Northbrook Dr, Rockridge (Stop A)",
+      "matches": [
+        {
+          "name": "Northbrook Dr - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-i",
+      "name": "Westbrook Dr, Salton (Stop I)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - I",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-h",
+      "name": "Westbrook Dr, Salton (Stop H)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - H",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-g",
+      "name": "Westbrook Dr, Salton (Stop G)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - G",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-16th-ave-b",
+      "name": "NW 16th Ave, Salton (Stop B)",
+      "matches": [
+        {
+          "name": "NW 16th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-20th-st-a",
+      "name": "NW 20th St, Salton (Stop A)",
+      "matches": [
+        {
+          "name": "NW 20th St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-12th-st-b",
+      "name": "NW 12th St, La Perle (Stop B)",
+      "matches": [
+        {
+          "name": "NW 12th St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-k",
+      "name": "Del Rio Blvd, La Perle (Stop K)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - K",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-m",
+      "name": "Del Rio Blvd, La Perle (Stop M)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - M",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-4th-st-b",
+      "name": "NW 4th St, Stockyard (Stop B)",
+      "matches": [
+        {
+          "name": "NW 4th St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-5th-ave-e",
+      "name": "NE 5th Ave, Stockyard (Stop E)",
+      "matches": [
+        {
+          "name": "NE 5th Ave - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-17th-st",
+      "name": "NE 17th St, Decor District",
+      "matches": [
+        {
+          "name": "NE 17th St",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-6th-ave-c",
+      "name": "NE 6th Ave, Decor District (Stop C)",
+      "matches": [
+        {
+          "name": "NE 6th Ave - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-19th-st",
+      "name": "NE 19th St, Decor District",
+      "matches": [
+        {
+          "name": "NE 19th St",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-u",
+      "name": "Catalan Blvd, Decor District (Stop U)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - U",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-t",
+      "name": "Catalan Blvd, Decor District (Stop T)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - T",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "crockett-ter",
+      "name": "Crockett Ter, Decor District",
+      "matches": [
+        {
+          "name": "Crockett Ter",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-5th-ave-d",
+      "name": "NE 5th Ave, Stockyard (Stop D)",
+      "matches": [
+        {
+          "name": "NE 5th Ave - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-5th-ave-a",
+      "name": "NE 5th Ave, Bayside (Stop A)",
+      "matches": [
+        {
+          "name": "NE 5th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-4th-ave-a",
+      "name": "NE 4th Ave, Crosstown (Stop A)",
+      "matches": [
+        {
+          "name": "NE 4th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "mirimar-dr-b",
+      "name": "Mirimar Dr, Crosstown (Stop B)",
+      "matches": [
+        {
+          "name": "Mirimar Dr - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-m",
+      "name": "Catalan Blvd, Crosstown (Stop M)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - M",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-1st-ave-b",
+      "name": "NE 1st Ave, Crosstown (Stop B)",
+      "matches": [
+        {
+          "name": "NE 1st Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-1st-ave-a",
+      "name": "NE 1st Ave, Downtown (Stop A)",
+      "matches": [
+        {
+          "name": "NE 1st Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-g",
+      "name": "Catalan Blvd, Downtown (Stop G)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - G",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-c",
+      "name": "Catalan Blvd, Downtown (Stop C)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-b",
+      "name": "Catalan Blvd, Tequesta (Stop B)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-g",
+      "name": "South Vice Ave, Tequesta (Stop G)",
+      "matches": [
+        {
+          "name": "South Vice Ave - G",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "harbor-sound-dr-b",
+      "name": "Harbor Sound Dr, Tequesta (Stop B)",
+      "matches": [
+        {
+          "name": "Harbor Sound Dr - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "harbor-sound-dr-a",
+      "name": "Harbor Sound Dr, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "Harbor Sound Dr - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-d",
+      "name": "South Vice Ave, Tequesta (Stop D)",
+      "matches": [
+        {
+          "name": "South Vice Ave - D",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-7th-st",
+      "name": "SW 7th St, Peacock Bay",
+      "matches": [
+        {
+          "name": "SW 7th St",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "i-97-a",
+      "name": "I-97, Peacock Bay (Stop A)",
+      "matches": [
+        {
+          "name": "I-97 - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-c",
+      "name": "Cicada Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "Cicada Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-b",
+      "name": "Cicada Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "Cicada Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-10th-ave-a",
+      "name": "SW 10th Ave, Southside (Stop A)",
+      "matches": [
+        {
+          "name": "SW 10th Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-d",
+      "name": "Cicada Ave, Southside (Stop D)",
+      "matches": [
+        {
+          "name": "Cicada Ave - D",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-b",
+      "name": "South Vice Ave, Peacock Bay (Stop B)",
+      "matches": [
+        {
+          "name": "South Vice Ave - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-e",
+      "name": "South Vice Ave, Tequesta (Stop E)",
+      "matches": [
+        {
+          "name": "South Vice Ave - E",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-a",
+      "name": "Catalan Blvd, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-d",
+      "name": "Catalan Blvd, Downtown (Stop D)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-e",
+      "name": "Catalan Blvd, Downtown (Stop E)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-l",
+      "name": "Catalan Blvd, Bayside (Stop L)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - L",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "mirimar-dr-c",
+      "name": "Mirimar Dr, Bayside (Stop C)",
+      "matches": [
+        {
+          "name": "Mirimar Dr - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "mirimar-dr-a",
+      "name": "Mirimar Dr, Crosstown (Stop A)",
+      "matches": [
+        {
+          "name": "Mirimar Dr - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-4th-ave-b",
+      "name": "NE 4th Ave, Bayside (Stop B)",
+      "matches": [
+        {
+          "name": "NE 4th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-5th-ave-c",
+      "name": "NE 5th Ave, Stockyard (Stop C)",
+      "matches": [
+        {
+          "name": "NE 5th Ave - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "vineyard-dr-a",
+      "name": "Vineyard Dr, Penmarch Isle (Stop A)",
+      "matches": [
+        {
+          "name": "Vineyard Dr - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-10th-ave-b",
+      "name": "SW 10th Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "SW 10th Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-c",
+      "name": "SW 3rd Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-a",
+      "name": "SW 9th Ave, Southside (Stop A)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-d",
+      "name": "SW 9th Ave, Southside (Stop D)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - D",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "el-joven-blvd-a",
+      "name": "El Joven Blvd, VCIA (Stop A)",
+      "matches": [
+        {
+          "name": "El Joven Blvd - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "el-joven-blvd-b",
+      "name": "El Joven Blvd, VCIA (Stop B)",
+      "matches": [
+        {
+          "name": "El Joven Blvd - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "bayside-dr",
+      "name": "Bayside Dr, Salton",
+      "matches": [
+        {
+          "name": "Bayside Dr",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-a",
+      "name": "Westbrook Dr, Salton (Stop A)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-c",
+      "name": "Westbrook Dr, Salton (Stop C)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "omega-pkwy",
+      "name": "Omega Pkwy, Balsero",
+      "matches": [
+        {
+          "name": "Omega Pkwy",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-20th-st-b",
+      "name": "NW 20th St, Salton (Stop B)",
+      "matches": [
+        {
+          "name": "NW 20th St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-16th-ave-c",
+      "name": "NW 16th Ave, Salton (Stop C)",
+      "matches": [
+        {
+          "name": "NW 16th Ave - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-f",
+      "name": "Westbrook Dr, Salton (Stop F)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - F",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-e",
+      "name": "Westbrook Dr, Salton (Stop E)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-d",
+      "name": "Westbrook Dr, Salton (Stop D)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "westbrook-dr-b",
+      "name": "Westbrook Dr, Salton (Stop B)",
+      "matches": [
+        {
+          "name": "Westbrook Dr - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-16th-st",
+      "name": "SW 16th St, Salton",
+      "matches": [
+        {
+          "name": "SW 16th St",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-c",
+      "name": "SW 9th Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-b",
+      "name": "SW 9th Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-a",
+      "name": "SW 3rd Ave, Southside (Stop A)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-b",
+      "name": "SW 3rd Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-10th-ave-c",
+      "name": "SW 10th Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "SW 10th Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-r",
+      "name": "Rialto Cswy, Casanova Island (Stop R)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - R",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-p",
+      "name": "Rialto Cswy, Vespucci Island (Stop P)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - P",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-n",
+      "name": "Rialto Cswy, Catalan Island (Stop N)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - N",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-k",
+      "name": "Rialto Cswy, Bayside (Stop K)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - K",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-i",
+      "name": "Rialto Cswy, Crosstown (Stop I)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - I",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-g",
+      "name": "Rialto Cswy, Crosstown (Stop G)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - G",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-e",
+      "name": "Rialto Cswy, Rockridge (Stop E)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-c",
+      "name": "Rialto Cswy, Rockridge (Stop C)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "northbrook-dr-e",
+      "name": "Northbrook Dr, Rockridge (Stop E)",
+      "matches": [
+        {
+          "name": "Northbrook Dr - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-e",
+      "name": "Del Rio Blvd, Rockridge (Stop E)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-c",
+      "name": "Del Rio Blvd, Rockridge (Stop C)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-b",
+      "name": "Del Rio Blvd, Rockridge (Stop B)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sr-25-a",
+      "name": "SR-25, Balsero (Stop A)",
+      "matches": [
+        {
+          "name": "SR-25 - A",
+          "districts": [
+            "Emerald Springs"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-15th-ave-a",
+      "name": "NW 15th Ave, Balsero (Stop A)",
+      "matches": [
+        {
+          "name": "NW 15th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-15th-ave-b",
+      "name": "NW 15th Ave, Balsero (Stop B)",
+      "matches": [
+        {
+          "name": "NW 15th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sr-25-b",
+      "name": "SR-25, Balsero (Stop B)",
+      "matches": [
+        {
+          "name": "SR-25 - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-a",
+      "name": "Del Rio Blvd, Rockridge (Stop A)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-d",
+      "name": "Del Rio Blvd, Rockridge (Stop D)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "northbrook-dr-d",
+      "name": "Northbrook Dr, Rockridge (Stop D)",
+      "matches": [
+        {
+          "name": "Northbrook Dr - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-d",
+      "name": "Rialto Cswy, Rockridge (Stop D)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-f",
+      "name": "Rialto Cswy, Crosstown (Stop F)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - F",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-j",
+      "name": "Rialto Cswy, Bayside (Stop J)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - J",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-l",
+      "name": "Rialto Cswy, Bayside (Stop L)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - L",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-m",
+      "name": "Rialto Cswy, Catalan Island (Stop M)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - M",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-o",
+      "name": "Rialto Cswy, Vespucci Island (Stop O)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - O",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-q",
+      "name": "Rialto Cswy, Casanova Island (Stop Q)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - Q",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-t",
+      "name": "Rialto Cswy, Oldby Island (Stop T)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - T",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "azelia-st-a",
+      "name": "Azelia St, Ocean Beach (Stop A)",
+      "matches": [
+        {
+          "name": "Azelia St - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "rialto-cswy-s",
+      "name": "Rialto Cswy, Oldby Island (Stop S)",
+      "matches": [
+        {
+          "name": "Rialto Cswy - S",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-c",
+      "name": "South Vice Ave, Tequesta (Stop C)",
+      "matches": [
+        {
+          "name": "South Vice Ave - C",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-f",
+      "name": "South Vice Ave, Tequesta (Stop F)",
+      "matches": [
+        {
+          "name": "South Vice Ave - F",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-j",
+      "name": "South Vice Ave, Downtown (Stop J)",
+      "matches": [
+        {
+          "name": "South Vice Ave - J",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-b",
+      "name": "North Vice Ave, Downtown (Stop B)",
+      "matches": [
+        {
+          "name": "North Vice Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-d",
+      "name": "North Vice Ave, Downtown (Stop D)",
+      "matches": [
+        {
+          "name": "North Vice Ave - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-f",
+      "name": "North Vice Ave, Downtown (Stop F)",
+      "matches": [
+        {
+          "name": "North Vice Ave - F",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-g",
+      "name": "North Vice Ave, Downtown (Stop G)",
+      "matches": [
+        {
+          "name": "North Vice Ave - G",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-i",
+      "name": "North Vice Ave, Crosstown (Stop I)",
+      "matches": [
+        {
+          "name": "North Vice Ave - I",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-k",
+      "name": "North Vice Ave, Crosstown (Stop K)",
+      "matches": [
+        {
+          "name": "North Vice Ave - K",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-e",
+      "name": "North Vice Ave, Downtown (Stop E)",
+      "matches": [
+        {
+          "name": "North Vice Ave - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-c",
+      "name": "North Vice Ave, Downtown (Stop C)",
+      "matches": [
+        {
+          "name": "North Vice Ave - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "north-vice-ave-a",
+      "name": "North Vice Ave, Downtown (Stop A)",
+      "matches": [
+        {
+          "name": "North Vice Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "mariners-hwy-a",
+      "name": "Mariner's Hwy, Downtown (Stop A)",
+      "matches": [
+        {
+          "name": "Mariner's Hwy - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ocean-sound-rd-b",
+      "name": "Ocean Sound Rd, Catalan Key (Stop B)",
+      "matches": [
+        {
+          "name": "Ocean Sound Rd - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "harbor-key-loop",
+      "name": "Harbor Key Loop, Gloriana Key",
+      "matches": [
+        {
+          "name": "Harbor Key Loop",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "barentine-dr",
+      "name": "Barentine Dr, Catalan Key",
+      "matches": [
+        {
+          "name": "Barentine Dr",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-j",
+      "name": "Atlantic Ave, Washington Beach (Stop J)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - J",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-i",
+      "name": "Atlantic Ave, Washington Beach (Stop I)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - I",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-f",
+      "name": "Atlantic Ave, Ocean Beach (Stop F)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - F",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-e",
+      "name": "Atlantic Ave, Ocean Beach (Stop E)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - E",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-d",
+      "name": "Atlantic Ave, Ocean Beach (Stop D)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - D",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-a",
+      "name": "Atlantic Ave, Ocean Beach (Stop A)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "shore-dr-a",
+      "name": "Shore Dr, Ocean Beach (Stop A)",
+      "matches": [
+        {
+          "name": "Shore Dr - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-b",
+      "name": "Thompson Ave, Ocean Beach (Stop B)",
+      "matches": [
+        {
+          "name": "Thompson Ave - B",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "koko-blvd-a",
+      "name": "Koko Blvd, Ocean Beach (Stop A)",
+      "matches": [
+        {
+          "name": "Koko Blvd - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "koko-blvd-b",
+      "name": "Koko Blvd, Ocean Beach (Stop B)",
+      "matches": [
+        {
+          "name": "Koko Blvd - B",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "admiral-dr-b",
+      "name": "Admiral Dr, Waxman Island (Stop B)",
+      "matches": [
+        {
+          "name": "Admiral Dr - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-h",
+      "name": "Catalan Blvd, Downtown (Stop H)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - H",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-k",
+      "name": "Catalan Blvd, Panos Plaza (Stop K)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - K",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "delphino-cir-b",
+      "name": "Delphino Cir, Bayside (Stop B)",
+      "matches": [
+        {
+          "name": "Delphino Cir - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "delphino-cir-c",
+      "name": "Delphino Cir, Bayside (Stop C)",
+      "matches": [
+        {
+          "name": "Delphino Cir - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-n",
+      "name": "Catalan Blvd, Bayside (Stop N)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - N",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-p",
+      "name": "Catalan Blvd, Bayside (Stop P)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - P",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-s",
+      "name": "Catalan Blvd, Bayside (Stop S)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - S",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "shorebeach-rd-b",
+      "name": "Shorebeach Rd, Washington Beach (Stop B)",
+      "matches": [
+        {
+          "name": "Shorebeach Rd - B",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "shorebeach-rd-a",
+      "name": "Shorebeach Rd, Washington Beach (Stop A)",
+      "matches": [
+        {
+          "name": "Shorebeach Rd - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-q",
+      "name": "Atlantic Ave, Washington Beach (Stop Q)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - Q",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "vineyard-dr-c",
+      "name": "Vineyard Dr, Washington Island (Stop C)",
+      "matches": [
+        {
+          "name": "Vineyard Dr - C",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-6th-ave-b",
+      "name": "NE 6th Ave, Decor District (Stop B)",
+      "matches": [
+        {
+          "name": "NE 6th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-6th-ave-a",
+      "name": "NE 6th Ave, Stockyard (Stop A)",
+      "matches": [
+        {
+          "name": "NE 6th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-r",
+      "name": "Catalan Blvd, Stockyard (Stop R)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - R",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-q",
+      "name": "Catalan Blvd, Bayside (Stop Q)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - Q",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-o",
+      "name": "Catalan Blvd, Bayside (Stop O)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - O",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "delphino-cir-a",
+      "name": "Delphino Cir, Bayside (Stop A)",
+      "matches": [
+        {
+          "name": "Delphino Cir - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-j",
+      "name": "Catalan Blvd, Bayside (Stop J)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - J",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-i",
+      "name": "Catalan Blvd, Downtown (Stop I)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - I",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "admiral-dr-a",
+      "name": "Admiral Dr, Waxman Island (Stop A)",
+      "matches": [
+        {
+          "name": "Admiral Dr - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-a",
+      "name": "Thompson Ave, Ocean Beach (Stop A)",
+      "matches": [
+        {
+          "name": "Thompson Ave - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "shore-dr-b",
+      "name": "Shore Dr, Ocean Beach (Stop B)",
+      "matches": [
+        {
+          "name": "Shore Dr - B",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-k",
+      "name": "Atlantic Ave, Washington Beach (Stop K)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - K",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "shorebeach-rd-c",
+      "name": "Shorebeach Rd, Washington Beach (Stop C)",
+      "matches": [
+        {
+          "name": "Shorebeach Rd - C",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-1st-st-a",
+      "name": "NE 1st St, Downtown (Stop A)",
+      "matches": [
+        {
+          "name": "NE 1st St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-vice-ct",
+      "name": "NE Vice Ct, Downtown",
+      "matches": [
+        {
+          "name": "NE Vice Ct",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "mariners-hwy-b",
+      "name": "Mariner's Hwy, Downtown (Stop B)",
+      "matches": [
+        {
+          "name": "Mariner's Hwy - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-1st-ave-a",
+      "name": "NW 1st Ave, Downtown (Stop A)",
+      "matches": [
+        {
+          "name": "NW 1st Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-1st-ave-b",
+      "name": "NW 1st Ave, Downtown (Stop B)",
+      "matches": [
+        {
+          "name": "NW 1st Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-3rd-st-b",
+      "name": "NW 3rd St, Little Cuba (Stop B)",
+      "matches": [
+        {
+          "name": "NW 3rd St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sr-25-e",
+      "name": "SR-25, Salton (Stop E)",
+      "matches": [
+        {
+          "name": "SR-25 - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-19th-st-b",
+      "name": "NW 19th St, Salton (Stop B)",
+      "matches": [
+        {
+          "name": "NW 19th St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-19th-st-c",
+      "name": "NW 19th St, Salton (Stop C)",
+      "matches": [
+        {
+          "name": "NW 19th St - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-17th-st-c",
+      "name": "NW 17th St, Balsero (Stop C)",
+      "matches": [
+        {
+          "name": "NW 17th St - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-17th-st-b",
+      "name": "NW 17th St, Balsero (Stop B)",
+      "matches": [
+        {
+          "name": "NW 17th St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-17th-st-a",
+      "name": "NW 17th St, Balsero (Stop A)",
+      "matches": [
+        {
+          "name": "NW 17th St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-17th-st-d",
+      "name": "NW 17th St, Balsero (Stop D)",
+      "matches": [
+        {
+          "name": "NW 17th St - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-19th-st-a",
+      "name": "NW 19th St, Salton (Stop A)",
+      "matches": [
+        {
+          "name": "NW 19th St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-3rd-st-c",
+      "name": "NW 3rd St, Downtown (Stop C)",
+      "matches": [
+        {
+          "name": "NW 3rd St - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-1st-st-b",
+      "name": "NE 1st St, Downtown (Stop B)",
+      "matches": [
+        {
+          "name": "NE 1st St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-13th-st",
+      "name": "NW 13th St, La Perle",
+      "matches": [
+        {
+          "name": "NW 13th St",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-14th-st",
+      "name": "NE 14th St, La Perle",
+      "matches": [
+        {
+          "name": "NE 14th St",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-i",
+      "name": "Del Rio Blvd, La Perle (Stop I)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - I",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-g",
+      "name": "Del Rio Blvd, La Perle (Stop G)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - G",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-h",
+      "name": "Del Rio Blvd, La Perle (Stop H)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - H",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-8th-ave-b",
+      "name": "NW 8th Ave, Rockridge (Stop B)",
+      "matches": [
+        {
+          "name": "NW 8th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-8th-st-a",
+      "name": "NW 8th St, Rockridge (Stop A)",
+      "matches": [
+        {
+          "name": "NW 8th St - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-8th-st-b",
+      "name": "NW 8th St, Rockridge (Stop B)",
+      "matches": [
+        {
+          "name": "NW 8th St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-6th-ave",
+      "name": "NW 6th Ave, Rockridge",
+      "matches": [
+        {
+          "name": "NW 6th Ave",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-j",
+      "name": "Del Rio Blvd, La Perle (Stop J)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - J",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "vcia-circular-a",
+      "name": "VCIA Circular, VCIA Terminals (Stop A)",
+      "matches": [
+        {
+          "name": "VCIA Circular - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "west-royale-st-b",
+      "name": "West Royale St, VCIA (Stop B)",
+      "matches": [
+        {
+          "name": "West Royale St - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "i-97-b",
+      "name": "I-97, Downtown (Stop B)",
+      "matches": [
+        {
+          "name": "I-97 - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "west-royale-st-g",
+      "name": "West Royale St, Downtown (Stop G)",
+      "matches": [
+        {
+          "name": "West Royale St - G",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "east-royale-st",
+      "name": "East Royale St, Downtown",
+      "matches": [
+        {
+          "name": "East Royale St",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-f",
+      "name": "Catalan Blvd, Downtown (Stop F)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - F",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "admiral-cswy-b",
+      "name": "Admiral Cswy, Waxman Island (Stop B)",
+      "matches": [
+        {
+          "name": "Admiral Cswy - B",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-c",
+      "name": "Thompson Ave, Ocean Beach (Stop C)",
+      "matches": [
+        {
+          "name": "Thompson Ave - C",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-f",
+      "name": "Thompson Ave, Ocean Beach (Stop F)",
+      "matches": [
+        {
+          "name": "Thompson Ave - F",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-h",
+      "name": "Thompson Ave, Ocean Beach (Stop H)",
+      "matches": [
+        {
+          "name": "Thompson Ave - H",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-j",
+      "name": "Thompson Ave, Ocean Beach (Stop J)",
+      "matches": [
+        {
+          "name": "Thompson Ave - J",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-l",
+      "name": "Thompson Ave, Ocean Beach (Stop L)",
+      "matches": [
+        {
+          "name": "Thompson Ave - L",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-n",
+      "name": "Thompson Ave, Ocean Beach (Stop N)",
+      "matches": [
+        {
+          "name": "Thompson Ave - N",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-p",
+      "name": "Thompson Ave, Washington Beach (Stop P)",
+      "matches": [
+        {
+          "name": "Thompson Ave - P",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-m",
+      "name": "Atlantic Ave, Washington Beach (Stop M)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - M",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-n",
+      "name": "Atlantic Ave, Washington Beach (Stop N)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - N",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "northside-ave-a",
+      "name": "Northside Ave, Washington Beach (Stop A)",
+      "matches": [
+        {
+          "name": "Northside Ave - A",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "northside-ave-b",
+      "name": "Northside Ave, Washington Beach (Stop B)",
+      "matches": [
+        {
+          "name": "Northside Ave - B",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-s",
+      "name": "Atlantic Ave, Washington Beach (Stop S)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - S",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-r",
+      "name": "Atlantic Ave, Washington Beach (Stop R)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - R",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-p",
+      "name": "Atlantic Ave, Washington Beach (Stop P)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - P",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-o",
+      "name": "Atlantic Ave, Washington Beach (Stop O)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - O",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "atlantic-ave-l",
+      "name": "Atlantic Ave, Washington Beach (Stop L)",
+      "matches": [
+        {
+          "name": "Atlantic Ave - L",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "azelia-st-b",
+      "name": "Azelia St, Washington Beach (Stop B)",
+      "matches": [
+        {
+          "name": "Azelia St - B",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-o",
+      "name": "Thompson Ave, Ocean Beach (Stop O)",
+      "matches": [
+        {
+          "name": "Thompson Ave - O",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-m",
+      "name": "Thompson Ave, Ocean Beach (Stop M)",
+      "matches": [
+        {
+          "name": "Thompson Ave - M",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-k",
+      "name": "Thompson Ave, Ocean Beach (Stop K)",
+      "matches": [
+        {
+          "name": "Thompson Ave - K",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-i",
+      "name": "Thompson Ave, Ocean Beach (Stop I)",
+      "matches": [
+        {
+          "name": "Thompson Ave - I",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-g",
+      "name": "Thompson Ave, Ocean Beach (Stop G)",
+      "matches": [
+        {
+          "name": "Thompson Ave - G",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-e",
+      "name": "Thompson Ave, Ocean Beach (Stop E)",
+      "matches": [
+        {
+          "name": "Thompson Ave - E",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "thompson-ave-d",
+      "name": "Thompson Ave, Ocean Beach (Stop D)",
+      "matches": [
+        {
+          "name": "Thompson Ave - D",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "seaview-blvd",
+      "name": "Seaview Blvd, Ocean Beach",
+      "matches": [
+        {
+          "name": "Seaview Blvd",
+          "districts": [
+            "Vice Beach"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "admiral-cswy-a",
+      "name": "Admiral Cswy, Waxman Island (Stop A)",
+      "matches": [
+        {
+          "name": "Admiral Cswy - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "west-royale-st-f",
+      "name": "West Royale St, Downtown (Stop F)",
+      "matches": [
+        {
+          "name": "West Royale St - F",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "west-royale-st-c",
+      "name": "West Royale St, Salton (Stop C)",
+      "matches": [
+        {
+          "name": "West Royale St - C",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "vcia-circular-b",
+      "name": "VCIA Circular, VCIA Terminals (Stop B)",
+      "matches": [
+        {
+          "name": "VCIA Circular - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-18th-ave-a",
+      "name": "NW 18th Ave, Salton (Stop A)",
+      "matches": [
+        {
+          "name": "NW 18th Ave - A",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "palmetto-ave-b",
+      "name": "Palmetto Ave, Hamlet (Stop B)",
+      "matches": [
+        {
+          "name": "Palmetto Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "sunbelt-hwy-b",
+      "name": "Sunbelt Hwy, Key Lento (Stop B)",
+      "matches": [
+        {
+          "name": "Sunbelt Hwy - B",
+          "districts": [
+            "Key Lento"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "queen-palm-ave",
+      "name": "Queen Palm Ave, Southwind",
+      "matches": [
+        {
+          "name": "Queen Palm Ave",
+          "districts": [
+            "Watson Bay"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sunbelt-hwy-a",
+      "name": "Sunbelt Hwy, Key Lento (Stop A)",
+      "matches": [
+        {
+          "name": "Sunbelt Hwy - A",
+          "districts": [
+            "Key Lento"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "ocean-sound-rd-a",
+      "name": "Ocean Sound Rd, Key Lento (Stop A)",
+      "matches": [
+        {
+          "name": "Ocean Sound Rd - A",
+          "districts": [
+            "Key Lento"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "ne-1st-ave-e",
+      "name": "NE 1st Ave, Crosstown (Stop E)",
+      "matches": [
+        {
+          "name": "NE 1st Ave - E",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-a",
+      "name": "Cicada Ave, Bluegrass (Stop A)",
+      "matches": [
+        {
+          "name": "Cicada Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "us-82-b",
+      "name": "US-82, Grassrivers (Stop B)",
+      "matches": [
+        {
+          "name": "US-82 - B",
+          "districts": [
+            "Watson Bay"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "us-9-b",
+      "name": "US-9, Port Gellhorn (Stop B)",
+      "matches": [
+        {
+          "name": "US-9 - B",
+          "districts": [
+            "Port Gellhorn"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "discovery-st-b",
+      "name": "Discovery St, Belville (Stop B)",
+      "matches": [
+        {
+          "name": "Discovery St - B",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "ne-1st-ave-d",
+      "name": "NE 1st Ave, Crosstown (Stop D)",
+      "matches": [
+        {
+          "name": "NE 1st Ave - D",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "nw-18th-ave-b",
+      "name": "NW 18th Ave, Salton (Stop B)",
+      "matches": [
+        {
+          "name": "NW 18th Ave - B",
+          "districts": [
+            "Vice City"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "us-9-a",
+      "name": "US-9, Port Gellhorn (Stop A)",
+      "matches": [
+        {
+          "name": "US-9 - A",
+          "districts": [
+            "Port Gellhorn"
+          ]
+        }
+      ],
+      "districtMatch": true
+    },
+    {
+      "stopId": "palmetto-ave-a",
+      "name": "Palmetto Ave, Hamlet (Stop A)",
+      "matches": [
+        {
+          "name": "Palmetto Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "1029-ne-1st-b-or-c",
+      "status": "unresolved-user-observation",
+      "lineIds": [
+        "1029"
+      ],
+      "stopIds": [
+        "ne-1st-ave-a",
+        "ne-1st-ave-b"
+      ],
+      "title": "1029 · NE 1st Ave: Stop B oder C?",
+      "description": "Nutzerhinweis: Nach Stop A könnte im Spiel Stop C folgen. Die Beobachtung ist unsicher; ein Halt auf der gegenüberliegenden Straßenseite könnte beteiligt sein. GTAMap führt weiterhin NE 1st Ave, Crosstown (Stop B). GTABase listet NE 1st Ave - B, bestätigt aber weder die genaue Zuordnung noch die Haltefolge.",
+      "decision": "Offen: Stop B bleibt vorerst erhalten. Kein Halt C ergänzt, keine Gegenrichtung oder Umsteigeverbindung daraus abgeleitet.",
+      "sourceNames": {
+        "gtamap": "NE 1st Ave, Crosstown (Stop B)",
+        "gtabase": "NE 1st Ave - B"
+      },
+      "reportedAlternative": "NE 1st Ave (Stop C), exact locality and direction uncertain",
+      "evidenceNeeded": "A photo or gameplay observation showing the sign/map, travel direction and preceding/following stop. Alphabetical letters alone do not establish call order."
+    },
+    {
+      "id": "first-avenue-identities",
+      "status": "distinct-source-identities",
+      "lineIds": [
+        "1029",
+        "A55"
+      ],
+      "stopIds": [
+        "ne-1st-ave-a",
+        "ne-1st-ave-b",
+        "nw-1st-ave-a",
+        "nw-1st-ave-b",
+        "ne-1st-st-a",
+        "ne-1st-st-b"
+      ],
+      "title": "NE / NW · 1st Ave und 1st St auseinanderhalten",
+      "description": "In der Quelle bedient die 1029 NE 1st Ave, Downtown (Stop A) und NE 1st Ave, Crosstown (Stop B). A55 bedient NW 1st Ave, Downtown (Stop A/B) sowie NE 1st St, Downtown (Stop A/B). Avenue, Street und Himmelsrichtung bezeichnen hier getrennte Marker.",
+      "decision": "Getrennte Identitäten beibehalten. Ähnliche Namen belegen weder denselben Halt noch einen Umstieg."
+    },
+    {
+      "id": "queen-palm-locality",
+      "status": "unresolved-source-disagreement",
+      "lineIds": [
+        "KL"
+      ],
+      "stopIds": [
+        "queen-palm-ave"
+      ],
+      "title": "Queen Palm Ave · Southwind oder Watson Bay?",
+      "description": "GTAMap ordnet Queen Palm Ave Southwind zu; GTABase nennt Watson Bay. Straße und Ortsangabe sind damit nicht vollständig gegengeprüft.",
+      "decision": "Offen: Die bisherige Bezeichnung bleibt erhalten. Die abweichende Ortsangabe ist kein ausreichender Beleg für eine Umbenennung."
+    }
+  ],
+  "districtDifferences": [
+    {
+      "stopId": "gulf-st",
+      "name": "Gulf St, Port VC",
+      "matches": [
+        {
+          "name": "Gulf St",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "basin-dr",
+      "name": "Basin Dr, Port VC",
+      "matches": [
+        {
+          "name": "Basin Dr",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-a",
+      "name": "South Vice Ave, Peacock Bay (Stop A)",
+      "matches": [
+        {
+          "name": "South Vice Ave - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-8th-st",
+      "name": "SW 8th St, Peacock Bay",
+      "matches": [
+        {
+          "name": "SW 8th St",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-c",
+      "name": "SW 5th Ave, Peacock Bay (Stop C)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - C",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-f",
+      "name": "SW 5th Ave, Tequesta (Stop F)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - F",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-h",
+      "name": "SW 5th Ave, Tequesta (Stop H)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - H",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-4th-ave-a",
+      "name": "SW 4th Ave, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "SW 4th Ave - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-st-a",
+      "name": "SW 3rd St, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "SW 3rd St - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-i",
+      "name": "South Vice Ave, Tequesta (Stop I)",
+      "matches": [
+        {
+          "name": "South Vice Ave - I",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-h",
+      "name": "South Vice Ave, Tequesta (Stop H)",
+      "matches": [
+        {
+          "name": "South Vice Ave - H",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-4th-st-a",
+      "name": "SW 4th St, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "SW 4th St - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-g",
+      "name": "SW 5th Ave, Tequesta (Stop G)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - G",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-b",
+      "name": "SW 5th Ave, Peacock Bay (Stop B)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-5th-ave-a",
+      "name": "SW 5th Ave, Peacock Bay (Stop A)",
+      "matches": [
+        {
+          "name": "SW 5th Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-d",
+      "name": "SW 3rd Ave, Peacock Bay (Stop D)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - D",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-l",
+      "name": "Del Rio Blvd, La Perle (Stop L)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - L",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "del-rio-blvd-m",
+      "name": "Del Rio Blvd, La Perle (Stop M)",
+      "matches": [
+        {
+          "name": "Del Rio Blvd - M",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ne-19th-st",
+      "name": "NE 19th St, Decor District",
+      "matches": [
+        {
+          "name": "NE 19th St",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "crockett-ter",
+      "name": "Crockett Ter, Decor District",
+      "matches": [
+        {
+          "name": "Crockett Ter",
+          "districts": [
+            "Belville"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-b",
+      "name": "Catalan Blvd, Tequesta (Stop B)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-g",
+      "name": "South Vice Ave, Tequesta (Stop G)",
+      "matches": [
+        {
+          "name": "South Vice Ave - G",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "harbor-sound-dr-b",
+      "name": "Harbor Sound Dr, Tequesta (Stop B)",
+      "matches": [
+        {
+          "name": "Harbor Sound Dr - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "harbor-sound-dr-a",
+      "name": "Harbor Sound Dr, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "Harbor Sound Dr - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-d",
+      "name": "South Vice Ave, Tequesta (Stop D)",
+      "matches": [
+        {
+          "name": "South Vice Ave - D",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-7th-st",
+      "name": "SW 7th St, Peacock Bay",
+      "matches": [
+        {
+          "name": "SW 7th St",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "i-97-a",
+      "name": "I-97, Peacock Bay (Stop A)",
+      "matches": [
+        {
+          "name": "I-97 - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-c",
+      "name": "Cicada Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "Cicada Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-b",
+      "name": "Cicada Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "Cicada Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-10th-ave-a",
+      "name": "SW 10th Ave, Southside (Stop A)",
+      "matches": [
+        {
+          "name": "SW 10th Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-d",
+      "name": "Cicada Ave, Southside (Stop D)",
+      "matches": [
+        {
+          "name": "Cicada Ave - D",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-b",
+      "name": "South Vice Ave, Peacock Bay (Stop B)",
+      "matches": [
+        {
+          "name": "South Vice Ave - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-e",
+      "name": "South Vice Ave, Tequesta (Stop E)",
+      "matches": [
+        {
+          "name": "South Vice Ave - E",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "catalan-blvd-a",
+      "name": "Catalan Blvd, Tequesta (Stop A)",
+      "matches": [
+        {
+          "name": "Catalan Blvd - A",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-10th-ave-b",
+      "name": "SW 10th Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "SW 10th Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-c",
+      "name": "SW 3rd Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-a",
+      "name": "SW 9th Ave, Southside (Stop A)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-d",
+      "name": "SW 9th Ave, Southside (Stop D)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - D",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-c",
+      "name": "SW 9th Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-9th-ave-b",
+      "name": "SW 9th Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "SW 9th Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-a",
+      "name": "SW 3rd Ave, Southside (Stop A)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-3rd-ave-b",
+      "name": "SW 3rd Ave, Southside (Stop B)",
+      "matches": [
+        {
+          "name": "SW 3rd Ave - B",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sw-10th-ave-c",
+      "name": "SW 10th Ave, Southside (Stop C)",
+      "matches": [
+        {
+          "name": "SW 10th Ave - C",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "sr-25-a",
+      "name": "SR-25, Balsero (Stop A)",
+      "matches": [
+        {
+          "name": "SR-25 - A",
+          "districts": [
+            "Emerald Springs"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-c",
+      "name": "South Vice Ave, Tequesta (Stop C)",
+      "matches": [
+        {
+          "name": "South Vice Ave - C",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "south-vice-ave-f",
+      "name": "South Vice Ave, Tequesta (Stop F)",
+      "matches": [
+        {
+          "name": "South Vice Ave - F",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "ocean-sound-rd-b",
+      "name": "Ocean Sound Rd, Catalan Key (Stop B)",
+      "matches": [
+        {
+          "name": "Ocean Sound Rd - B",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "barentine-dr",
+      "name": "Barentine Dr, Catalan Key",
+      "matches": [
+        {
+          "name": "Barentine Dr",
+          "districts": [
+            "Gloriana Key"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "vcia-circular-a",
+      "name": "VCIA Circular, VCIA Terminals (Stop A)",
+      "matches": [
+        {
+          "name": "VCIA Circular - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "cicada-ave-a",
+      "name": "Cicada Ave, Bluegrass (Stop A)",
+      "matches": [
+        {
+          "name": "Cicada Ave - A",
+          "districts": [
+            "Hamlet"
+          ]
+        }
+      ],
+      "districtMatch": false
+    },
+    {
+      "stopId": "us-82-b",
+      "name": "US-82, Grassrivers (Stop B)",
+      "matches": [
+        {
+          "name": "US-82 - B",
+          "districts": [
+            "Watson Bay"
+          ]
+        }
+      ],
+      "districtMatch": false
+    }
+  ],
+  "method": {
+    "identity": "GTAMap marker ID; no merge by fuzzy name, stop letter, proximity or district.",
+    "comparison": "All imported named marker labels compared with the fresh GTAMap transit file and line page. Named bus streets and stop letters compared with GTABase. District differences are evidence strings, not verified errors.",
+    "limits": "The two GTAMap resources share a publisher. GTABase may share upstream work. Matching labels do not establish independent game accuracy, direction, platforms or transfers. Unmarked shelters are not verified names.",
+    "policy": "Keep existing stop identities, names, physical positions and sequences until adequate contrary evidence is available. An uncertain user observation is recorded separately."
+  }
+}

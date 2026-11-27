@@ -6,7 +6,8 @@ export type StationPoint=Point&{id:string;stopId:string};
 export type CallPoint=StationPoint&{call:number;totalCalls:number};
 export type MapEdge={key:string;lineId:string;from:string;to:string;points:Point[]};
 export const MAP_BOX:ViewBox={x:0,y:0,width:1400,height:1660};
-const GRID=20;
+const GRID=28;
+const LAYOUT_VERSION=2;
 
 function axis(value:number,anchors:[number,number][]){
  let i=0;while(i<anchors.length-2&&value>anchors[i+1][0])i++;
@@ -16,8 +17,8 @@ function axis(value:number,anchors:[number,number][]){
 // Expand the dense city while preserving north/south and east/west orientation.
 // These are our own schematic coordinates, never inputs to walking distances.
 export function projectGame(x:number,y:number):Point {
- return {x:axis(x,[[-10000,40],[-3200,450],[2300,1320],[4000,1380]]),
- y:axis(y,[[-9000,1620],[-3000,1240],[2600,500],[10500,80]])};
+ return {x:axis(x,[[-10000,40],[-3200,400],[-1600,630],[200,1040],[2300,1320],[4000,1380]]),
+ y:axis(y,[[-9000,1620],[-3000,1280],[-1000,1080],[1800,520],[2600,440],[10500,80]])};
 }
 export function fitPoints(points:Point[],padding=70):ViewBox{
  if(!points.length)return {...MAP_BOX};
@@ -207,7 +208,7 @@ export const regionBounds:Record<string,ViewBox>={
  south:fitPoints([projectGame(-8400,-8200),projectGame(-600,-2800)],55)
 };
 export function schematicSignature(network:Network){
- const text=JSON.stringify([network.stops.map(s=>[s.id,s.x,s.y,s.position]),network.lines.map(l=>[l.id,l.patterns.map(p=>p.stops)])]);
+ const text=JSON.stringify([LAYOUT_VERSION,network.stops.map(s=>[s.id,s.x,s.y,s.position]),network.lines.map(l=>[l.id,l.patterns.map(p=>p.stops)])]);
  let hash=2166136261;for(let i=0;i<text.length;i++)hash=Math.imul(hash^text.charCodeAt(i),16777619);
  return (hash>>>0).toString(16);
 }

@@ -90,3 +90,13 @@ For provenance and licensing distinctions, see [DATA_SOURCES.md](../DATA_SOURCES
 When walking is off, a separate suggestion can appear below an existing route if walking saves at least three ride segments and 25% compared with both that route and the shortest route available without walking. It respects the selected transport modes and walking radius, with a maximum of 500 metres total straight-line walking for automatic suggestions. Paths and crossings remain unverified. The preview compares segment counts, walking distance and transfers; opening it keeps the original result. Only choosing Use this alternative replaces the result, enables walking and selects the fewest-stops preference. The existing routing graph is unchanged.
 
 A dismissible notice above the main result announces an available walking alternative. Selecting it opens and scrolls to the preview without adopting the route. Dismissal applies to the current result; a fresh search can show the notice again.
+
+## Map selection and name review
+
+The schematic expands the Vice City core and separates stop symbols on a wider grid. Geographic positions, walking distances and route sequences use the original physical data. A layout-version signature invalidates the generated diagram cache when its projection changes.
+
+Visible station names open the same origin/destination selection as stop symbols, including with Enter or Space. Repeated calls retain separate occurrence IDs. Label leader lines remain decorative. Label size remains constant on screen while zooming.
+
+**Data & offline → Reviewing station names** records unresolved reports without adding warnings to map labels. The 2026-11-27 review compared imported named markers with a fresh GTAMap transit file and line page, and compared street names and stop letters for 272 bus stops with GTABase. These sources do not independently establish in-game signage or route order. The reported NE 1st Ave B/C discrepancy on 1029 remains open; no name or sequence has been changed. NE/NW, Avenue/Street and separate source markers are kept distinct.
+
+The bundled and downloadable [name review](../public/stop-name-review.json) contains source URLs, SHA-256 receipts, the uncertain user observation, per-stop comparisons and differing locality labels. Broad city/island labels are not treated as contradictions with neighbourhood names. Other locality differences are retained as review candidates, not declared errors. Queen Palm Ave remains an explicit unresolved Southwind/Watson Bay disagreement. The report is cached with the offline app.
