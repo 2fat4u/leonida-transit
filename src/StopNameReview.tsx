@@ -7,6 +7,7 @@ export function StopNameReview(){
   <h2>{t('Stationsnamen im Abgleich.')}</h2>
   <p>{t('Geprüft am {0}: Die importierten Namen stimmen mit den zugehörigen GTAMap-Markern überein. Das bestätigt noch nicht die Beschilderung im Spiel.',review.checkedAt)}</p>
   <p>{t('Offene Hinweise bleiben hier dokumentiert. Solange die Belege nicht ausreichen, bleiben Namen und Haltefolgen unverändert.')}</p>
+  <p><strong>{t(review.nameGuidance.title)}</strong> {t(review.nameGuidance.description)}</p>
   {review.issues.map(issue=><details key={issue.id}><summary>{t(issue.title)}</summary><p>{t(issue.description)}</p><p>{t(issue.decision)}</p></details>)}
   <details><summary>{t('Weitere abweichende Ortsangaben')} · {review.districtDifferences.length}</summary>
    <p>{t('Gleiche Straße und gleicher Buchstabe können unterschiedlich zugeordnet sein. Gröbere Regionsangaben sind kein Beleg für einen falschen Stationsnamen. Keine automatische Umbenennung oder Zusammenlegung.')}</p>

@@ -3591,25 +3591,6 @@
       "evidenceNeeded": "A photo or gameplay observation showing the sign/map, travel direction and preceding/following stop. Alphabetical letters alone do not establish call order."
     },
     {
-      "id": "first-avenue-identities",
-      "status": "distinct-source-identities",
-      "lineIds": [
-        "1029",
-        "A55"
-      ],
-      "stopIds": [
-        "ne-1st-ave-a",
-        "ne-1st-ave-b",
-        "nw-1st-ave-a",
-        "nw-1st-ave-b",
-        "ne-1st-st-a",
-        "ne-1st-st-b"
-      ],
-      "title": "NE / NW · 1st Ave und 1st St auseinanderhalten",
-      "description": "In der Quelle bedient die 1029 NE 1st Ave, Downtown (Stop A) und NE 1st Ave, Crosstown (Stop B). A55 bedient NW 1st Ave, Downtown (Stop A/B) sowie NE 1st St, Downtown (Stop A/B). Avenue, Street und Himmelsrichtung bezeichnen hier getrennte Marker.",
-      "decision": "Getrennte Identitäten beibehalten. Ähnliche Namen belegen weder denselben Halt noch einen Umstieg."
-    },
-    {
       "id": "queen-palm-locality",
       "status": "unresolved-source-disagreement",
       "lineIds": [
@@ -4293,5 +4274,9 @@
     "comparison": "All imported named marker labels compared with the fresh GTAMap transit file and line page. Named bus streets and stop letters compared with GTABase. District differences are evidence strings, not verified errors.",
     "limits": "The two GTAMap resources share a publisher. GTABase may share upstream work. Matching labels do not establish independent game accuracy, direction, platforms or transfers. Unmarked shelters are not verified names.",
     "policy": "Keep existing stop identities, names, physical positions and sequences until adequate contrary evidence is available. An uncertain user observation is recorded separately."
+  },
+  "nameGuidance": {
+    "title": "Ähnliche Namen und mögliche Zusätze.",
+    "description": "Viele Haltestellen heißen ähnlich und unterscheiden sich etwa durch NE/NW oder Street/Avenue. Ortszusätze wie Downtown können in Fan-Quellen und im Spiel unterschiedlich sein oder fehlen. Die Namen sind nicht vollständig im Spiel geprüft; Fehler sind möglich."
   }
 }
